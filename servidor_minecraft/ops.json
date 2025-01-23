@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "062613a0-7d98-3e6d-873c-bd8edfba8b90",
+    "name": "KilFail",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
