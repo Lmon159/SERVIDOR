@@ -1735,6 +1735,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:river": "2025-01-23 20:53:59 +0000",
       "minecraft:meadow": "2025-01-23 19:41:37 +0000",
       "minecraft:plains": "2025-01-23 19:41:08 +0000"
     },
@@ -1941,6 +1942,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/find_grave_dust": {
+    "criteria": {
+      "from_undead": "2025-01-23 20:43:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2025-01-23 20:32:35 +0000"
@@ -1998,6 +2005,12 @@
   "minecraft:recipes/misc/gold_nugget_from_blasting": {
     "criteria": {
       "has_golden_boots": "2025-01-23 20:32:41 +0000"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/upgrades/basic_mount_upgrade": {
+    "criteria": {
+      "has_saddle": "2025-01-23 21:01:04 +0000"
     },
     "done": true
   },
@@ -2064,6 +2077,12 @@
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2025-01-23 20:23:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2025-01-23 20:44:27 +0000"
     },
     "done": true
   },
@@ -2343,6 +2362,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/bestiary": {
+    "criteria": {
+      "bestiary": "2025-01-23 20:54:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
       "has_stick": "2025-01-23 20:23:16 +0000"
@@ -2352,6 +2377,12 @@
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_stick": "2025-01-23 20:23:16 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/brewery": {
+    "criteria": {
+      "has_alt_item": "2025-01-23 20:54:32 +0000"
     },
     "done": true
   },
@@ -3015,6 +3046,18 @@
     },
     "done": true
   },
+  "tombstone:adventure/chain_death": {
+    "criteria": {
+      "coded_trigger": "2025-01-23 21:03:16 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/bestiary": {
+    "criteria": {
+      "has_item": "2025-01-23 20:54:49 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/redstone/reinforced_cherry_fence_gate": {
     "criteria": {
       "has_stick": "2025-01-23 20:23:16 +0000"
@@ -3078,6 +3121,12 @@
   "rats:recipes/tools/rat_whistle": {
     "criteria": {
       "has_iron": "2025-01-23 20:32:35 +0000"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/upgrades/damage_protection_upgrade": {
+    "criteria": {
+      "has_apple": "2025-01-23 20:57:45 +0000"
     },
     "done": true
   },
@@ -3192,6 +3241,12 @@
   "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
     "criteria": {
       "has_azure_bluet": "2025-01-23 20:31:25 +0000"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/upgrades/support_upgrade": {
+    "criteria": {
+      "has_stand": "2025-01-23 20:54:32 +0000"
     },
     "done": true
   },
@@ -3407,8 +3462,10 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "pumpkin_pie": "2025-01-23 20:44:33 +0000",
       "bread": "2025-01-23 20:23:37 +0000",
       "rotten_flesh": "2025-01-23 20:31:28 +0000",
+      "glow_berries": "2025-01-23 20:58:10 +0000",
       "carrot": "2025-01-23 20:20:52 +0000"
     },
     "done": false
@@ -3476,6 +3533,12 @@
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2025-01-23 20:32:35 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/alchemy_catalyst": {
+    "criteria": {
+      "has_alt_item": "2025-01-23 20:54:32 +0000"
     },
     "done": true
   },

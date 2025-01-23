@@ -353,6 +353,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-01-23 20:45:39 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/void_prism": {
     "criteria": {
       "has_journal": "2025-01-23 20:20:08 +0000"
@@ -527,6 +533,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2025-01-23 20:44:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/cherry_boat": {
     "criteria": {
       "in_water": "2025-01-23 20:42:45 +0000"
@@ -543,7 +555,9 @@
     "criteria": {
       "minecraft:pillager": "2025-01-23 20:31:21 +0000",
       "minecraft:skeleton": "2025-01-23 20:41:38 +0000",
-      "minecraft:husk": "2025-01-23 20:23:34 +0000"
+      "minecraft:spider": "2025-01-23 20:51:11 +0000",
+      "minecraft:husk": "2025-01-23 20:23:34 +0000",
+      "minecraft:zombie": "2025-01-23 20:52:18 +0000"
     },
     "done": false
   },
@@ -757,6 +771,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-01-23 20:51:28 +0000"
+    },
+    "done": true
+  },
   "rats:recipes/building_blocks/dye_sponge": {
     "criteria": {
       "has_dye": "2025-01-23 20:29:58 +0000"
@@ -847,6 +867,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2025-01-23 20:45:37 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/building_blocks/sourcestone_basketweave_stone_cutterslab": {
     "criteria": {
       "has_journal": "2025-01-23 20:20:08 +0000"
@@ -904,6 +930,12 @@
   "botania:recipes/tools/flower_bag": {
     "criteria": {
       "has_item": "2025-01-23 20:22:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2025-01-23 20:51:28 +0000"
     },
     "done": true
   },
@@ -1465,6 +1497,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2025-01-23 20:51:28 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/ritual_containment": {
     "criteria": {
       "has_journal": "2025-01-23 20:20:08 +0000"
@@ -1639,6 +1677,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-01-23 20:51:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_sword": "2025-01-23 20:29:58 +0000"
@@ -1702,6 +1746,12 @@
   "ars_nouveau:recipes/building_blocks/smooth_sourcestone_small_bricks_stone_cutterslab": {
     "criteria": {
       "has_journal": "2025-01-23 20:20:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-01-23 20:51:28 +0000"
     },
     "done": true
   },
@@ -1915,6 +1965,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2025-01-23 20:51:28 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/building_blocks/smooth_sourcestone_large_bricks_stonecutter_stair": {
     "criteria": {
       "has_journal": "2025-01-23 20:20:08 +0000"
@@ -1978,6 +2034,12 @@
   "ars_nouveau:recipes/misc/water_essence_to_obsidian": {
     "criteria": {
       "has_journal": "2025-01-23 20:20:08 +0000"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/upgrades/bee_upgrade": {
+    "criteria": {
+      "has_bottle": "2025-01-23 20:48:54 +0000"
     },
     "done": true
   },
@@ -2077,6 +2139,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2025-01-23 20:48:54 +0000"
+    },
+    "done": true
+  },
   "rats:recipes/misc/hammocks/rat_hammock_white": {
     "criteria": {
       "has_wool": "2025-01-23 20:30:00 +0000"
@@ -2086,6 +2154,12 @@
   "ars_nouveau:recipes/misc/blue_archwood_wood": {
     "criteria": {
       "has_journal": "2025-01-23 20:20:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2025-01-23 20:48:54 +0000"
     },
     "done": true
   },
@@ -2251,6 +2325,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-01-23 20:51:28 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/ritual_harvest": {
     "criteria": {
       "has_journal": "2025-01-23 20:20:08 +0000"
@@ -2272,6 +2352,18 @@
   "ars_nouveau:recipes/building_blocks/sourcestone_alternating_stonecutter_stair": {
     "criteria": {
       "has_journal": "2025-01-23 20:20:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2025-01-23 20:51:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2025-01-23 20:51:28 +0000"
     },
     "done": true
   },
@@ -2817,6 +2909,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:river": "2025-01-23 20:53:53 +0000",
+      "minecraft:dripstone_caves": "2025-01-23 20:58:40 +0000",
       "minecraft:meadow": "2025-01-23 20:26:31 +0000",
       "minecraft:plains": "2025-01-23 20:20:09 +0000"
     },
@@ -2868,7 +2962,8 @@
     "criteria": {
       "potato": "2025-01-23 20:34:04 +0000",
       "bread": "2025-01-23 20:37:40 +0000",
-      "rotten_flesh": "2025-01-23 20:24:26 +0000"
+      "rotten_flesh": "2025-01-23 20:24:26 +0000",
+      "carrot": "2025-01-23 20:44:26 +0000"
     },
     "done": false
   },
