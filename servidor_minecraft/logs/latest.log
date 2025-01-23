@@ -1,0 +1,440 @@
+[23Jan2025 18:37:21.038] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[23Jan2025 18:37:21.041] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[23Jan2025 18:37:21.597] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[23Jan2025 18:37:21.644] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/SERVIDOR/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[23Jan2025 18:37:22.034] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SERVIDOR/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[23Jan2025 18:37:22.035] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SERVIDOR/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[23Jan2025 18:37:22.035] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SERVIDOR/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[23Jan2025 18:37:22.036] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SERVIDOR/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[23Jan2025 18:37:22.230] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[23Jan2025 18:37:22.231] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[23Jan2025 18:37:24.441] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[23Jan2025 18:37:24.498] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[23Jan2025 18:37:24.562] [main/WARN] [mixin/]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
+[23Jan2025 18:37:26.198] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[23Jan2025 18:37:32.050] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[23Jan2025 18:37:33.813] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[23Jan2025 18:37:33.826] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[23Jan2025 18:37:38.935] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[23Jan2025 18:37:39.393] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[23Jan2025 18:37:39.439] [main/INFO] [journeymap/]: Initializing Packet Registries
+[23Jan2025 18:37:39.589] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[23Jan2025 18:37:39.590] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[23Jan2025 18:37:39.759] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.12 Target: null
+[23Jan2025 18:37:39.761] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[23Jan2025 18:37:39.848] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.24
+[23Jan2025 18:37:44.473] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23Jan2025 18:37:44.567] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+dawnera (version 0.58.94 -> MISSING)
+Things may not work well.
+[23Jan2025 18:37:44.682] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
+	dawnera:alligator_gar_roe: 3383
+	dawnera:ceratosaurus_eggs: 3384
+	dawnera:diabloceratops_eggs: 3386
+	dawnera:dimorphodon_eggs: 3385
+	dawnera:dunkleosteus_egg: 3380
+	dawnera:psittacosaurus_eggs: 3390
+	dawnera:sabertooth_salmon_roe: 3382
+	dawnera:seagrass_eggs: 3391
+	dawnera:struthiomimus_eggs: 3389
+	dawnera:sturgeon_roe: 3381
+	dawnera:tall_seagrass_eggs: 3392
+	dawnera:triceratops_egg: 3388
+	dawnera:tyrannosaurus_egg: 3387
+	dawnera:worm_dirt: 3393
+
+[23Jan2025 18:37:44.685] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:entity_type
+	dawnera:alligator_gar: 612
+	dawnera:ceratosaurus: 608
+	dawnera:coelacanth: 614
+	dawnera:diabloceratops: 618
+	dawnera:dimorphodon: 619
+	dawnera:dunkleosteus: 607
+	dawnera:falling_tree: 622
+	dawnera:mixosaurus: 615
+	dawnera:pond_snail: 616
+	dawnera:psittacosaurus: 610
+	dawnera:sabertooth_salmon: 613
+	dawnera:struthiomimus: 609
+	dawnera:sturgeon: 611
+	dawnera:triceratops: 621
+	dawnera:tyrannosaurus: 620
+	dawnera:worm: 617
+
+[23Jan2025 18:37:44.688] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	dawnera:alligator_gar: 5342
+	dawnera:alligator_gar_roe: 5360
+	dawnera:alligator_gar_spawn_egg: 5317
+	dawnera:bone_whistle: 5329
+	dawnera:bowl_of_caviar: 5344
+	dawnera:bowl_of_sabertooth_salmon_roe: 5346
+	dawnera:bowl_of_sabertooth_salmon_soup: 5341
+	dawnera:caviar_sandwich: 5345
+	dawnera:ceratosaurus_armor: 5352
+	dawnera:ceratosaurus_eggs: 5361
+	dawnera:ceratosaurus_saddle: 5351
+	dawnera:ceratosaurus_spawn_egg: 5315
+	dawnera:coelacanth: 5337
+	dawnera:coelacanth_spawn_egg: 5319
+	dawnera:cooked_alligator_gar: 5343
+	dawnera:cooked_coelacanth: 5338
+	dawnera:cooked_psittacosaurus_meat: 5334
+	dawnera:cooked_sabertooth_salmon: 5340
+	dawnera:cooked_struthiomimus_meat: 5336
+	dawnera:cooked_sturgeon: 5332
+	dawnera:diabloceratops_armor: 5350
+	dawnera:diabloceratops_eggs: 5363
+	dawnera:diabloceratops_saddle: 5349
+	dawnera:diabloceratops_spawn_egg: 5323
+	dawnera:dimorphodon_eggs: 5362
+	dawnera:dimorphodon_spawn_egg: 5324
+	dawnera:dunkleosteus_egg: 5357
+	dawnera:dunkleosteus_spawn_egg: 5314
+	dawnera:inspecting_spyglass: 5328
+	dawnera:mixosaurus_spawn_egg: 5320
+	dawnera:pond_snail_spawn_egg: 5321
+	dawnera:psittaco: 5347
+	dawnera:psittacosaurus_eggs: 5367
+	dawnera:psittacosaurus_meat: 5333
+	dawnera:psittacosaurus_spawn_egg: 5326
+	dawnera:sabertooth_salmon: 5339
+	dawnera:sabertooth_salmon_roe: 5359
+	dawnera:sabertooth_salmon_spawn_egg: 5318
+	dawnera:seagrass_eggs: 5368
+	dawnera:struthiomimus_eggs: 5366
+	dawnera:struthiomimus_meat: 5335
+	dawnera:struthiomimus_spawn_egg: 5313
+	dawnera:sturgeon: 5331
+	dawnera:sturgeon_roe: 5358
+	dawnera:sturgeon_spawn_egg: 5316
+	dawnera:triceratops_armor: 5356
+	dawnera:triceratops_egg: 5365
+	dawnera:triceratops_horn: 5348
+	dawnera:triceratops_saddle: 5355
+	dawnera:triceratops_spawn_egg: 5327
+	dawnera:tyrannosaurus_armor: 5354
+	dawnera:tyrannosaurus_egg: 5364
+	dawnera:tyrannosaurus_saddle: 5353
+	dawnera:tyrannosaurus_spawn_egg: 5325
+	dawnera:worm: 5330
+	dawnera:worm_dirt: 5369
+	dawnera:worm_spawn_egg: 5322
+
+[23Jan2025 18:37:44.689] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:mob_effect
+	dawnera:fracture: 120
+
+[23Jan2025 18:37:44.689] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
+	dawnera:block.egg.break: 2834
+	dawnera:block.egg.fall: 2835
+	dawnera:block.egg.hit: 2836
+	dawnera:block.egg.place: 2837
+	dawnera:block.egg.step: 2838
+	dawnera:effect.fracture: 2839
+	dawnera:entity.ceratosaurus.attack: 2780
+	dawnera:entity.ceratosaurus.death: 2782
+	dawnera:entity.ceratosaurus.hurt: 2781
+	dawnera:entity.ceratosaurus.idle: 2776
+	dawnera:entity.ceratosaurus.roar: 2777
+	dawnera:entity.ceratosaurus.roar_strong: 2778
+	dawnera:entity.ceratosaurus.sleep: 2779
+	dawnera:entity.ceratosaurus.step: 2783
+	dawnera:entity.diabloceratops.attack: 2790
+	dawnera:entity.diabloceratops.death: 2791
+	dawnera:entity.diabloceratops.hurt: 2792
+	dawnera:entity.diabloceratops.idle: 2789
+	dawnera:entity.diabloceratops.scream: 2793
+	dawnera:entity.diabloceratops.step: 2794
+	dawnera:entity.dimorphodon.attack: 2799
+	dawnera:entity.dimorphodon.death: 2797
+	dawnera:entity.dimorphodon.hurt: 2796
+	dawnera:entity.dimorphodon.idle: 2795
+	dawnera:entity.dimorphodon.scream: 2798
+	dawnera:entity.dimorphodon.sleep: 2800
+	dawnera:entity.dunkleosteus.attack: 2803
+	dawnera:entity.dunkleosteus.death: 2805
+	dawnera:entity.dunkleosteus.hurt: 2804
+	dawnera:entity.dunkleosteus.idle: 2801
+	dawnera:entity.dunkleosteus.ram: 2802
+	dawnera:entity.mixosaurus.death: 2830
+	dawnera:entity.mixosaurus.hurt: 2829
+	dawnera:entity.mixosaurus.idle: 2828
+	dawnera:entity.psittacosaurus.attack: 2818
+	dawnera:entity.psittacosaurus.death: 2819
+	dawnera:entity.psittacosaurus.hurt: 2820
+	dawnera:entity.psittacosaurus.idle: 2817
+	dawnera:entity.psittacosaurus.scream: 2821
+	dawnera:entity.struthiomimus.attack: 2785
+	dawnera:entity.struthiomimus.death: 2786
+	dawnera:entity.struthiomimus.hurt: 2787
+	dawnera:entity.struthiomimus.idle: 2784
+	dawnera:entity.struthiomimus.scream: 2788
+	dawnera:entity.triceratops.attack: 2823
+	dawnera:entity.triceratops.death: 2824
+	dawnera:entity.triceratops.hurt: 2825
+	dawnera:entity.triceratops.idle: 2822
+	dawnera:entity.triceratops.scream: 2826
+	dawnera:entity.triceratops.step: 2827
+	dawnera:entity.tyrannosaurus.attack: 2812
+	dawnera:entity.tyrannosaurus.attack_ground: 2814
+	dawnera:entity.tyrannosaurus.death: 2810
+	dawnera:entity.tyrannosaurus.hurt: 2809
+	dawnera:entity.tyrannosaurus.idle: 2806
+	dawnera:entity.tyrannosaurus.ram: 2813
+	dawnera:entity.tyrannosaurus.roar: 2807
+	dawnera:entity.tyrannosaurus.sleep: 2815
+	dawnera:entity.tyrannosaurus.sniff: 2816
+	dawnera:entity.tyrannosaurus.step: 2808
+	dawnera:entity.tyrannosaurus.yawn: 2811
+	dawnera:generic.eat.grass: 2832
+	dawnera:generic.eat.meat: 2831
+	dawnera:generic.eat.short: 2833
+	dawnera:item.bone_whistle.follow: 2841
+	dawnera:item.bone_whistle.wait: 2842
+	dawnera:misc.tree.fall: 2840
+
+[23Jan2025 18:37:44.694] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 155 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[23Jan2025 18:37:44.694] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
+    dawnera:block.egg.break
+    dawnera:block.egg.fall
+    dawnera:block.egg.hit
+    dawnera:block.egg.place
+    dawnera:block.egg.step
+    dawnera:effect.fracture
+    dawnera:entity.ceratosaurus.attack
+    dawnera:entity.ceratosaurus.death
+    dawnera:entity.ceratosaurus.hurt
+    dawnera:entity.ceratosaurus.idle
+    dawnera:entity.ceratosaurus.roar
+    dawnera:entity.ceratosaurus.roar_strong
+    dawnera:entity.ceratosaurus.sleep
+    dawnera:entity.ceratosaurus.step
+    dawnera:entity.diabloceratops.attack
+    dawnera:entity.diabloceratops.death
+    dawnera:entity.diabloceratops.hurt
+    dawnera:entity.diabloceratops.idle
+    dawnera:entity.diabloceratops.scream
+    dawnera:entity.diabloceratops.step
+    dawnera:entity.dimorphodon.attack
+    dawnera:entity.dimorphodon.death
+    dawnera:entity.dimorphodon.hurt
+    dawnera:entity.dimorphodon.idle
+    dawnera:entity.dimorphodon.scream
+    dawnera:entity.dimorphodon.sleep
+    dawnera:entity.dunkleosteus.attack
+    dawnera:entity.dunkleosteus.death
+    dawnera:entity.dunkleosteus.hurt
+    dawnera:entity.dunkleosteus.idle
+    dawnera:entity.dunkleosteus.ram
+    dawnera:entity.mixosaurus.death
+    dawnera:entity.mixosaurus.hurt
+    dawnera:entity.mixosaurus.idle
+    dawnera:entity.psittacosaurus.attack
+    dawnera:entity.psittacosaurus.death
+    dawnera:entity.psittacosaurus.hurt
+    dawnera:entity.psittacosaurus.idle
+    dawnera:entity.psittacosaurus.scream
+    dawnera:entity.struthiomimus.attack
+    dawnera:entity.struthiomimus.death
+    dawnera:entity.struthiomimus.hurt
+    dawnera:entity.struthiomimus.idle
+    dawnera:entity.struthiomimus.scream
+    dawnera:entity.triceratops.attack
+    dawnera:entity.triceratops.death
+    dawnera:entity.triceratops.hurt
+    dawnera:entity.triceratops.idle
+    dawnera:entity.triceratops.scream
+    dawnera:entity.triceratops.step
+    dawnera:entity.tyrannosaurus.attack
+    dawnera:entity.tyrannosaurus.attack_ground
+    dawnera:entity.tyrannosaurus.death
+    dawnera:entity.tyrannosaurus.hurt
+    dawnera:entity.tyrannosaurus.idle
+    dawnera:entity.tyrannosaurus.ram
+    dawnera:entity.tyrannosaurus.roar
+    dawnera:entity.tyrannosaurus.sleep
+    dawnera:entity.tyrannosaurus.sniff
+    dawnera:entity.tyrannosaurus.step
+    dawnera:entity.tyrannosaurus.yawn
+    dawnera:generic.eat.grass
+    dawnera:generic.eat.meat
+    dawnera:generic.eat.short
+    dawnera:item.bone_whistle.follow
+    dawnera:item.bone_whistle.wait
+    dawnera:misc.tree.fall
+
+Missing minecraft:item:
+    dawnera:alligator_gar
+    dawnera:alligator_gar_roe
+    dawnera:alligator_gar_spawn_egg
+    dawnera:bone_whistle
+    dawnera:bowl_of_caviar
+    dawnera:bowl_of_sabertooth_salmon_roe
+    dawnera:bowl_of_sabertooth_salmon_soup
+    dawnera:caviar_sandwich
+    dawnera:ceratosaurus_armor
+    dawnera:ceratosaurus_eggs
+    dawnera:ceratosaurus_saddle
+    dawnera:ceratosaurus_spawn_egg
+    dawnera:coelacanth
+    dawnera:coelacanth_spawn_egg
+    dawnera:cooked_alligator_gar
+    dawnera:cooked_coelacanth
+    dawnera:cooked_psittacosaurus_meat
+    dawnera:cooked_sabertooth_salmon
+    dawnera:cooked_struthiomimus_meat
+    dawnera:cooked_sturgeon
+    dawnera:diabloceratops_armor
+    dawnera:diabloceratops_eggs
+    dawnera:diabloceratops_saddle
+    dawnera:diabloceratops_spawn_egg
+    dawnera:dimorphodon_eggs
+    dawnera:dimorphodon_spawn_egg
+    dawnera:dunkleosteus_egg
+    dawnera:dunkleosteus_spawn_egg
+    dawnera:inspecting_spyglass
+    dawnera:mixosaurus_spawn_egg
+    dawnera:pond_snail_spawn_egg
+    dawnera:psittaco
+    dawnera:psittacosaurus_eggs
+    dawnera:psittacosaurus_meat
+    dawnera:psittacosaurus_spawn_egg
+    dawnera:sabertooth_salmon
+    dawnera:sabertooth_salmon_roe
+    dawnera:sabertooth_salmon_spawn_egg
+    dawnera:seagrass_eggs
+    dawnera:struthiomimus_eggs
+    dawnera:struthiomimus_meat
+    dawnera:struthiomimus_spawn_egg
+    dawnera:sturgeon
+    dawnera:sturgeon_roe
+    dawnera:sturgeon_spawn_egg
+    dawnera:triceratops_armor
+    dawnera:triceratops_egg
+    dawnera:triceratops_horn
+    dawnera:triceratops_saddle
+    dawnera:triceratops_spawn_egg
+    dawnera:tyrannosaurus_armor
+    dawnera:tyrannosaurus_egg
+    dawnera:tyrannosaurus_saddle
+    dawnera:tyrannosaurus_spawn_egg
+    dawnera:worm
+    dawnera:worm_dirt
+    dawnera:worm_spawn_egg
+
+Missing minecraft:block:
+    dawnera:alligator_gar_roe
+    dawnera:ceratosaurus_eggs
+    dawnera:diabloceratops_eggs
+    dawnera:dimorphodon_eggs
+    dawnera:dunkleosteus_egg
+    dawnera:psittacosaurus_eggs
+    dawnera:sabertooth_salmon_roe
+    dawnera:seagrass_eggs
+    dawnera:struthiomimus_eggs
+    dawnera:sturgeon_roe
+    dawnera:tall_seagrass_eggs
+    dawnera:triceratops_egg
+    dawnera:tyrannosaurus_egg
+    dawnera:worm_dirt
+
+Missing minecraft:mob_effect:
+    dawnera:fracture
+
+Missing minecraft:entity_type:
+    dawnera:alligator_gar
+    dawnera:ceratosaurus
+    dawnera:coelacanth
+    dawnera:diabloceratops
+    dawnera:dimorphodon
+    dawnera:dunkleosteus
+    dawnera:falling_tree
+    dawnera:mixosaurus
+    dawnera:pond_snail
+    dawnera:psittacosaurus
+    dawnera:sabertooth_salmon
+    dawnera:struthiomimus
+    dawnera:sturgeon
+    dawnera:triceratops
+    dawnera:tyrannosaurus
+    dawnera:worm
+
+
+[23Jan2025 18:37:44.695] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[23Jan2025 18:37:47.581] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/SERVIDOR/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23143!/assets/.mcassetsroot' uses unexpected schema
+[23Jan2025 18:37:47.581] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/SERVIDOR/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23143!/data/.mcassetsroot' uses unexpected schema
+[23Jan2025 18:37:47.633] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:dawnera
+[23Jan2025 18:37:49.276] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[23Jan2025 18:37:50.533] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 34 recipes
+[23Jan2025 18:37:50.783] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4371 advancements
+[23Jan2025 18:37:50.792] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[23Jan2025 18:37:50.797] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[23Jan2025 18:37:50.833] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: netherexp:sounds/polished_blackstone
+[23Jan2025 18:37:53.597] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[23Jan2025 18:37:53.597] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[23Jan2025 18:37:53.597] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[23Jan2025 18:37:53.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[23Jan2025 18:37:53.737] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[23Jan2025 18:37:53.755] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[23Jan2025 18:37:53.826] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23Jan2025 18:37:53.826] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[23Jan2025 18:37:53.827] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23Jan2025 18:37:53.827] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[23Jan2025 18:37:53.841] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[23Jan2025 18:37:54.192] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:overworld
+[23Jan2025 18:37:54.192] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:the_nether
+[23Jan2025 18:37:54.194] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[23Jan2025 18:38:00.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[23Jan2025 18:38:07.781] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jan2025 18:38:07.782] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jan2025 18:38:07.783] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jan2025 18:38:07.785] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jan2025 18:38:07.786] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jan2025 18:38:07.789] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jan2025 18:38:07.790] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jan2025 18:38:07.793] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jan2025 18:38:07.795] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jan2025 18:38:07.797] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jan2025 18:38:07.797] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jan2025 18:38:07.798] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jan2025 18:38:07.799] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jan2025 18:38:07.800] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jan2025 18:38:07.823] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Jan2025 18:38:08.323] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[23Jan2025 18:38:08.823] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[23Jan2025 18:38:08.907] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8084 ms
+[23Jan2025 18:38:08.907] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (15.069s)! For help, type "help"
+[23Jan2025 18:38:08.951] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[23Jan2025 18:38:08.978] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[23Jan2025 18:38:08.978] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[23Jan2025 18:38:08.979] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[23Jan2025 18:38:10.743] [Server thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Found Pupfish chunk at -689 ~ -592 after 14 tries
+[23Jan2025 18:38:25.939] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: KilFail[/127.188.44.140:45909] logged in with entity id 228 at (-3.8038158086677885, 65.0, -39.55434207865075)
+[23Jan2025 18:38:25.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail joined the game
+[23Jan2025 18:38:26.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has completed the challenge [The Undead]
+[23Jan2025 18:38:26.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Ice and Fire]
+[23Jan2025 18:38:28.049] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KilFail lost connection: Disconnected
+[23Jan2025 18:38:28.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail left the game
+[23Jan2025 18:39:46.423] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: KilFail[/127.188.44.140:33579] logged in with entity id 302 at (-3.8038158086677885, 65.0, -39.55434207865075)
+[23Jan2025 18:39:46.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail joined the game
+[23Jan2025 18:40:06.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Alex's Mobs]
+[23Jan2025 18:40:25.290] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KilFail lost connection: Disconnected
+[23Jan2025 18:40:25.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail left the game
+[23Jan2025 18:42:58.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[23Jan2025 18:42:59.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[23Jan2025 18:42:59.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[23Jan2025 18:42:59.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[23Jan2025 18:42:59.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23Jan2025 18:43:00.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23Jan2025 18:43:00.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23Jan2025 18:43:00.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23Jan2025 18:43:00.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23Jan2025 18:43:00.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23Jan2025 18:43:00.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23Jan2025 18:43:00.588] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
