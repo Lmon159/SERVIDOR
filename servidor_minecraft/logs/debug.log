@@ -4346,3 +4346,75 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [23Jan2025 21:07:09.158] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
 [23Jan2025 21:07:12.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WithoutD2> xd
 [23Jan2025 21:07:15.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
+[23Jan2025 21:08:10.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has reached the goal [Chain Death]
+[23Jan2025 21:08:10.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 was slain by Ice Dragon
+[23Jan2025 21:08:10.196] [Server thread/DEBUG] [tombstone/]: A new grave of the player WithoutD2 was created at position [x:1010, y:98, z:-390, dim:minecraft:overworld]
+[23Jan2025 21:08:10.211] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
+[23Jan2025 21:08:15.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
+[23Jan2025 21:08:16.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WithoutD2> casi muere
+[23Jan2025 21:08:29.299] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[23Jan2025 21:08:29.314] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23Jan2025 21:08:38.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail walked into a cactus whilst trying to escape Ice Dragon
+[23Jan2025 21:08:38.804] [Server thread/DEBUG] [tombstone/]: A new grave of the player KilFail was created at position [x:1014, y:96, z:-381, dim:minecraft:overworld]
+[23Jan2025 21:08:38.805] [Server thread/INFO] [tombstone/]: The player KilFail has successfully been saved
+[23Jan2025 21:08:51.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to WithoutD2]
+[23Jan2025 21:08:59.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 walked into a cactus whilst trying to escape Ice Dragon
+[23Jan2025 21:08:59.506] [Server thread/DEBUG] [tombstone/]: A new grave of the player WithoutD2 was created at position [x:1018, y:95, z:-384, dim:minecraft:overworld]
+[23Jan2025 21:08:59.507] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
+[23Jan2025 21:09:02.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
+[23Jan2025 21:09:03.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail was slain by Zombie Bruiser
+[23Jan2025 21:09:03.227] [Server thread/INFO] [tombstone/]: The player KilFail has successfully been saved
+[23Jan2025 21:09:09.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to WithoutD2]
+[23Jan2025 21:09:28.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 was turned to ice by Ice Dragon
+[23Jan2025 21:09:28.448] [Server thread/DEBUG] [tombstone/]: A new grave of the player WithoutD2 was created at position [x:1011, y:91, z:-366, dim:minecraft:overworld]
+[23Jan2025 21:09:28.468] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
+[23Jan2025 21:09:33.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
+[23Jan2025 21:09:46.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Dragonslayer]
+[23Jan2025 21:09:48.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <KilFail> murio
+[23Jan2025 21:10:50.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WithoutD2> toma nico
+[23Jan2025 21:11:25.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WithoutD2> que es eso
+[23Jan2025 21:11:30.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <KilFail> what
+[23Jan2025 21:12:04.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <KilFail> me pico
+[23Jan2025 21:12:06.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <KilFail> ahora no veo nad
+[23Jan2025 21:12:09.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <KilFail> what
+[23Jan2025 21:12:16.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WithoutD2> hay algo invisible
+[23Jan2025 21:12:19.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WithoutD2> que sopla
+[23Jan2025 21:12:28.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WithoutD2> no lo escuchas?
+[23Jan2025 21:12:37.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <KilFail> aca
+[23Jan2025 21:12:40.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has completed the challenge [My Bald Satanic Goth Girl Friend]
+[23Jan2025 21:12:40.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [First big catch of the month!]
+[23Jan2025 21:12:57.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WithoutD2> te sobro algo del dragon nico?
+[23Jan2025 21:13:11.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <KilFail> 3
+[23Jan2025 21:13:29.290] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[23Jan2025 21:13:29.305] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23Jan2025 21:13:37.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <KilFail> me estan llamando mis amigos
+[23Jan2025 21:13:43.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <KilFail> mañana jugamos con misael :V
+[23Jan2025 21:13:46.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WithoutD2> vava
+[23Jan2025 21:13:48.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WithoutD2> chau
+[23Jan2025 21:13:50.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <KilFail> vas a estar aun aca
+[23Jan2025 21:13:51.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <KilFail> ?
+[23Jan2025 21:13:53.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <KilFail> o lo apago
+[23Jan2025 21:13:56.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WithoutD2> no apagalo
+[23Jan2025 21:13:57.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <KilFail> por el tiempo que tenemos
+[23Jan2025 21:14:01.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WithoutD2> vere los mods en mi mundo
+[23Jan2025 21:14:05.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <KilFail> okey
+[23Jan2025 21:14:07.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <KilFail> chao
+[23Jan2025 21:14:08.507] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KilFail lost connection: Disconnected
+[23Jan2025 21:14:08.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail left the game
+[23Jan2025 21:14:09.353] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WithoutD2 lost connection: Disconnected
+[23Jan2025 21:14:09.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 left the game
+[23Jan2025 21:14:24.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[23Jan2025 21:14:24.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[23Jan2025 21:14:24.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[23Jan2025 21:14:24.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[23Jan2025 21:14:24.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23Jan2025 21:14:24.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23Jan2025 21:14:24.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23Jan2025 21:14:24.887] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[23Jan2025 21:14:24.898] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23Jan2025 21:14:24.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23Jan2025 21:14:24.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23Jan2025 21:14:24.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23Jan2025 21:14:24.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23Jan2025 21:14:24.968] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
+[23Jan2025 21:14:24.970] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
