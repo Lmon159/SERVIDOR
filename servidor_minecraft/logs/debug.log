@@ -5978,3 +5978,104 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [27Jan2025 02:02:26.599] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
 [27Jan2025 02:02:27.300] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
 [27Jan2025 02:03:24.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Cover Me with Diamonds]
+[27Jan2025 02:04:11.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Diamonds!]
+[27Jan2025 02:04:13.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo was slain by Wither Skeleton
+[27Jan2025 02:04:13.567] [Server thread/DEBUG] [tombstone/]: A new grave of the player pepegrillo was created at position [x:1103, y:220, z:78, dim:minecraft:overworld]
+[27Jan2025 02:04:13.576] [Server thread/INFO] [tombstone/]: The player pepegrillo has successfully been saved
+[27Jan2025 02:05:26.919] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jan2025 02:05:26.935] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jan2025 02:05:53.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 was slain by Wither Skeleton
+[27Jan2025 02:05:53.910] [Server thread/DEBUG] [tombstone/]: A new grave of the player WithoutD2 was created at position [x:1097, y:213, z:75, dim:minecraft:overworld]
+[27Jan2025 02:05:53.922] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
+[27Jan2025 02:05:56.216] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/21394, l='ServerLevel[world]', x=1190.05, y=80.70, z=-112.07]
+[27Jan2025 02:05:56.217] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/21395, l='ServerLevel[world]', x=1189.78, y=80.70, z=-112.96]
+[27Jan2025 02:06:00.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to pepegrillo]
+[27Jan2025 02:06:16.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo was doomed to fall
+[27Jan2025 02:06:16.416] [Server thread/DEBUG] [tombstone/]: A new grave of the player pepegrillo was created at position [x:1115, y:74, z:88, dim:minecraft:overworld]
+[27Jan2025 02:06:16.416] [Server thread/INFO] [tombstone/]: The player pepegrillo has successfully been saved
+[27Jan2025 02:06:21.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has reached the goal [Chain Death]
+[27Jan2025 02:06:21.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 was slain by Hoglin
+[27Jan2025 02:06:21.509] [Server thread/DEBUG] [tombstone/]: A new grave of the player WithoutD2 was created at position [x:1101, y:213, z:57, dim:minecraft:overworld]
+[27Jan2025 02:06:21.525] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
+[27Jan2025 02:06:26.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to pepegrillo]
+[27Jan2025 02:06:36.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
+[27Jan2025 02:06:42.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
+[27Jan2025 02:07:00.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 was slain by Hoglin
+[27Jan2025 02:07:00.909] [Server thread/DEBUG] [tombstone/]: A new grave of the player WithoutD2 was created at position [x:1100, y:213, z:58, dim:minecraft:overworld]
+[27Jan2025 02:07:00.920] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
+[27Jan2025 02:07:07.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
+[27Jan2025 02:07:11.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has reached the goal [Chain Death]
+[27Jan2025 02:07:11.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo fell from a high place
+[27Jan2025 02:07:11.018] [Server thread/DEBUG] [tombstone/]: A new grave of the player pepegrillo was created at position [x:1104, y:89, z:138, dim:minecraft:overworld]
+[27Jan2025 02:07:11.018] [Server thread/INFO] [tombstone/]: The player pepegrillo has successfully been saved
+[27Jan2025 02:07:27.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 was slain by Wither Skeleton
+[27Jan2025 02:07:27.470] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
+[27Jan2025 02:07:30.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
+[27Jan2025 02:07:32.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo was doomed to fall
+[27Jan2025 02:07:32.112] [Server thread/INFO] [tombstone/]: The player pepegrillo has successfully been saved
+[27Jan2025 02:07:51.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 was slain by Hoglin
+[27Jan2025 02:07:51.017] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
+[27Jan2025 02:07:55.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
+[27Jan2025 02:07:57.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
+[27Jan2025 02:08:21.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
+[27Jan2025 02:08:47.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Double Trouble]
+[27Jan2025 02:08:48.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has reached the goal [Sweet Sweet Speeding Up]
+[27Jan2025 02:08:54.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail was doomed to fall
+[27Jan2025 02:08:54.870] [Server thread/DEBUG] [tombstone/]: A new grave of the player KilFail was created at position [x:1121, y:203, z:127, dim:minecraft:overworld]
+[27Jan2025 02:08:54.871] [Server thread/INFO] [tombstone/]: The player KilFail has successfully been saved
+[27Jan2025 02:08:57.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo withered away whilst fighting Wither Skeleton
+[27Jan2025 02:08:57.213] [Server thread/DEBUG] [tombstone/]: A new grave of the player pepegrillo was created at position [x:1102, y:220, z:137, dim:minecraft:overworld]
+[27Jan2025 02:08:57.214] [Server thread/INFO] [tombstone/]: The player pepegrillo has successfully been saved
+[27Jan2025 02:09:03.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to WithoutD2]
+[27Jan2025 02:09:19.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to WithoutD2]
+[27Jan2025 02:10:19.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 was slain by Wither Skeleton
+[27Jan2025 02:10:19.007] [Server thread/DEBUG] [tombstone/]: A new grave of the player WithoutD2 was created at position [x:1103, y:219, z:133, dim:minecraft:overworld]
+[27Jan2025 02:10:19.025] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
+[27Jan2025 02:10:22.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
+[27Jan2025 02:10:26.914] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jan2025 02:10:26.928] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jan2025 02:10:30.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail fell from a high place
+[27Jan2025 02:10:30.822] [Server thread/DEBUG] [tombstone/]: A new grave of the player KilFail was created at position [x:1104, y:89, z:139, dim:minecraft:overworld]
+[27Jan2025 02:10:30.822] [Server thread/INFO] [tombstone/]: The player KilFail has successfully been saved
+[27Jan2025 02:10:48.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Knowledge raises the soul]
+[27Jan2025 02:11:01.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to WithoutD2]
+[27Jan2025 02:11:04.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to pepegrillo]
+[27Jan2025 02:12:36.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo was killed by KilFail using magic
+[27Jan2025 02:12:36.022] [Server thread/DEBUG] [tombstone/]: A new grave of the player pepegrillo was created at position [x:1104, y:213, z:110, dim:minecraft:overworld]
+[27Jan2025 02:12:36.031] [Server thread/INFO] [tombstone/]: The player pepegrillo has successfully been saved
+[27Jan2025 02:12:42.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
+[27Jan2025 02:13:34.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Ambush]
+[27Jan2025 02:13:44.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has reached the goal [Bone Crusher]
+[27Jan2025 02:13:59.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Knowledge raises the soul]
+[27Jan2025 02:15:26.922] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jan2025 02:15:26.935] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jan2025 02:17:02.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
+[27Jan2025 02:17:30.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Back to childhood]
+[27Jan2025 02:17:30.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Not even afraid of death]
+[27Jan2025 02:17:49.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Cover Me with Diamonds]
+[27Jan2025 02:18:13.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has reached the goal [Death Will Not Be Enough]
+[27Jan2025 02:18:36.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has completed the challenge [Serious Dedication]
+[27Jan2025 02:18:51.433] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pepegrillo moved too quickly! 7.332513151110561,-135.0,0.020320334931412276
+[27Jan2025 02:19:03.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 was slain by pepegrillo
+[27Jan2025 02:19:03.137] [Server thread/DEBUG] [tombstone/]: A new grave of the player WithoutD2 was created at position [x:1104, y:66, z:80, dim:minecraft:overworld]
+[27Jan2025 02:19:03.144] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
+[27Jan2025 02:19:04.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
+[27Jan2025 02:19:41.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail was doomed to fall by Phantom
+[27Jan2025 02:19:41.126] [Server thread/DEBUG] [tombstone/]: A new grave of the player KilFail was created at position [x:1101, y:83, z:111, dim:minecraft:overworld]
+[27Jan2025 02:19:41.133] [Server thread/INFO] [tombstone/]: The player KilFail has successfully been saved
+[27Jan2025 02:19:42.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [The Most Useful Key]
+[27Jan2025 02:19:49.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Magic Writing]
+[27Jan2025 02:20:15.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to pepegrillo]
+[27Jan2025 02:20:26.905] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jan2025 02:20:26.920] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jan2025 02:21:29.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to pepegrillo]
+[27Jan2025 02:21:29.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail was doomed to fall by Hoglin
+[27Jan2025 02:21:29.877] [Server thread/DEBUG] [tombstone/]: A new grave of the player KilFail was created at position [x:1113, y:207, z:102, dim:minecraft:overworld]
+[27Jan2025 02:21:29.878] [Server thread/INFO] [tombstone/]: The player KilFail has successfully been saved
+[27Jan2025 02:21:59.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has reached the goal [Chain Death]
+[27Jan2025 02:21:59.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail was doomed to fall by Phantom
+[27Jan2025 02:21:59.159] [Server thread/DEBUG] [tombstone/]: A new grave of the player KilFail was created at position [x:1125, y:85, z:92, dim:minecraft:overworld]
+[27Jan2025 02:21:59.160] [Server thread/INFO] [tombstone/]: The player KilFail has successfully been saved
+[27Jan2025 02:22:14.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to WithoutD2]
+[27Jan2025 02:22:42.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to WithoutD2]
+[27Jan2025 02:23:58.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [The Desert Swimmers]
