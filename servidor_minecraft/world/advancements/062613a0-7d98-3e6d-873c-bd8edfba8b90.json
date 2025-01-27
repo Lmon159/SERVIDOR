@@ -173,6 +173,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/red_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-27 01:58:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_pickaxe": {
     "criteria": {
       "has_gold_ingot": "2025-01-27 01:19:10 +0000"
@@ -347,6 +353,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/green_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-27 01:58:14 +0000"
+    },
+    "done": true
+  },
   "rats:recipes/misc/upgrades/strength_upgrade": {
     "criteria": {
       "has_iron": "2025-01-27 01:11:14 +0000"
@@ -407,6 +419,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_horse_armor": "2025-01-27 01:57:20 +0000"
+    },
+    "done": true
+  },
   "rats:recipes/misc/upgrades/basic_mount_upgrade": {
     "criteria": {
       "has_cheese": "2025-01-27 01:13:33 +0000"
@@ -416,6 +434,12 @@
   "rats:recipes/food/rat_burger": {
     "criteria": {
       "has_bread": "2025-01-27 01:08:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-27 01:58:14 +0000"
     },
     "done": true
   },
@@ -593,6 +617,12 @@
     },
     "done": true
   },
+  "botania:recipes/redstone/red_string_container": {
+    "criteria": {
+      "has_base_block": "2025-01-27 01:55:26 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/decorations/sourcestone_19": {
     "criteria": {
       "has_journal": "2025-01-27 01:06:29 +0000"
@@ -715,6 +745,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-01-27 01:51:30 +0000",
       "minecraft:skeleton": "2025-01-27 01:15:23 +0000",
       "minecraft:spider": "2025-01-27 01:30:51 +0000",
       "minecraft:creeper": "2025-01-27 01:27:53 +0000",
@@ -951,6 +982,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-01-27 01:54:27 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/source_gem_block_2": {
     "criteria": {
       "has_journal": "2025-01-27 01:06:29 +0000"
@@ -990,6 +1027,12 @@
   "ars_nouveau:recipes/misc/spell_prism": {
     "criteria": {
       "has_journal": "2025-01-27 01:06:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_sandstone": "2025-01-27 01:57:08 +0000"
     },
     "done": true
   },
@@ -1101,6 +1144,12 @@
     },
     "done": true
   },
+  "botania:recipes/redstone/red_string_comparator": {
+    "criteria": {
+      "has_base_block": "2025-01-27 01:54:25 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/ritual_sunrise": {
     "criteria": {
       "has_journal": "2025-01-27 01:06:29 +0000"
@@ -1179,6 +1228,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2025-01-27 01:54:27 +0000"
+    },
+    "done": true
+  },
   "rats:recipes/misc/upgrades/remedy_upgrade": {
     "criteria": {
       "has_upgrade": "2025-01-27 01:13:34 +0000"
@@ -1200,6 +1255,12 @@
   "ars_nouveau:recipes/misc/manipulation_essence_to_moss_block": {
     "criteria": {
       "has_journal": "2025-01-27 01:06:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-27 01:58:14 +0000"
     },
     "done": true
   },
@@ -1266,6 +1327,12 @@
   "securitycraft:recipes/redstone/reinforced_fence_gate": {
     "criteria": {
       "has_iron": "2025-01-27 01:11:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-27 01:58:14 +0000"
     },
     "done": true
   },
@@ -1434,6 +1501,12 @@
   "ars_nouveau:recipes/misc/ritual_cloudshaping": {
     "criteria": {
       "has_journal": "2025-01-27 01:06:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-27 01:58:14 +0000"
     },
     "done": true
   },
@@ -1911,6 +1984,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/black_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-27 01:58:14 +0000"
+    },
+    "done": true
+  },
   "rats:recipes/misc/upgrades/flight_upgrade": {
     "criteria": {
       "has_cheese": "2025-01-27 01:13:33 +0000"
@@ -1950,6 +2029,12 @@
   "rats:recipes/food/chef/string_cheese": {
     "criteria": {
       "has_input": "2025-01-27 01:13:33 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/gold_hippogryph_armor": {
+    "criteria": {
+      "has_item": "2025-01-27 01:57:20 +0000"
     },
     "done": true
   },
@@ -2115,6 +2200,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/purple_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-27 01:58:14 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/redstone/reinforced_dropper": {
     "criteria": {
       "has_redstone": "2025-01-27 01:27:16 +0000"
@@ -2160,6 +2251,12 @@
   "securitycraft:recipes/misc/reinforced_bamboo_fence": {
     "criteria": {
       "has_stick": "2025-01-27 01:09:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-27 01:58:14 +0000"
     },
     "done": true
   },
@@ -2346,6 +2443,18 @@
   "rats:recipes/misc/upgrades/disenchanter_upgrade": {
     "criteria": {
       "has_upgrade": "2025-01-27 01:13:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-27 01:58:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-27 01:58:14 +0000"
     },
     "done": true
   },
@@ -2541,6 +2650,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_horse_armor": "2025-01-27 01:57:20 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/sourcestone_basketweave_to_sourcestone": {
     "criteria": {
       "has_journal": "2025-01-27 01:06:29 +0000"
@@ -2577,6 +2692,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/brown_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-27 01:58:14 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/smooth_gilded_sourcestone_large_bricks_to_sourcestone": {
     "criteria": {
       "has_journal": "2025-01-27 01:06:29 +0000"
@@ -2589,6 +2710,18 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/rattlesnake": {
+    "criteria": {
+      "killed_by": "2025-01-27 01:56:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-27 01:58:14 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/misc/disguise_module": {
     "criteria": {
       "has_iron": "2025-01-27 01:11:14 +0000"
@@ -2598,6 +2731,12 @@
   "iceandfire:recipes/tools/silver_ingot_from_smelting_raw_silver": {
     "criteria": {
       "has_raw_silver": "2025-01-27 01:12:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2025-01-27 01:58:14 +0000"
     },
     "done": true
   },
@@ -2622,6 +2761,12 @@
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2025-01-27 01:11:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2025-01-27 01:57:03 +0000"
     },
     "done": true
   },
@@ -2913,6 +3058,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/white_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-27 01:58:14 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/water_essence_to_obsidian": {
     "criteria": {
       "has_journal": "2025-01-27 01:06:29 +0000"
@@ -3048,6 +3199,12 @@
   "rats:recipes/misc/hammocks/rat_hammock_green": {
     "criteria": {
       "has_cheese": "2025-01-27 01:13:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
+    "criteria": {
+      "has_cut_sandstone": "2025-01-27 01:57:08 +0000"
     },
     "done": true
   },
@@ -3447,6 +3604,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2025-01-27 01:54:27 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/building_blocks/stripped_red_archwood_wood": {
     "criteria": {
       "has_journal": "2025-01-27 01:06:29 +0000"
@@ -3570,6 +3733,12 @@
   "rats:recipes/misc/upgrades/whitelist_upgrade": {
     "criteria": {
       "has_upgrade": "2025-01-27 01:13:34 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ambush": {
+    "criteria": {
+      "coded_trigger": "2025-01-27 01:51:30 +0000"
     },
     "done": true
   },
@@ -3855,6 +4024,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/yellow_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-27 01:58:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_fence_gate": {
     "criteria": {
       "has_planks": "2025-01-27 01:16:17 +0000"
@@ -3927,6 +4102,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2025-01-27 01:58:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_wool_from_string": {
     "criteria": {
       "has_string": "2025-01-27 01:30:51 +0000"
@@ -3963,6 +4144,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/gray_concrete_powder": {
+    "criteria": {
+      "has_sand": "2025-01-27 01:58:14 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/sourcestone_mosaic_to_sourcestone": {
     "criteria": {
       "has_journal": "2025-01-27 01:06:29 +0000"
@@ -3996,6 +4183,12 @@
   "ars_nouveau:recipes/misc/ritual_challenge": {
     "criteria": {
       "has_journal": "2025-01-27 01:06:29 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/diamond_hippogryph_armor": {
+    "criteria": {
+      "has_item": "2025-01-27 01:57:15 +0000"
     },
     "done": true
   },
@@ -4148,6 +4341,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/create_magic_scroll": {
+    "criteria": {
+      "has_magic_scroll": "2025-01-27 01:57:17 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/ritual_conjure_island_desert": {
     "criteria": {
       "has_journal": "2025-01-27 01:06:29 +0000"
@@ -4199,6 +4398,12 @@
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2025-01-27 01:33:04 +0000"
+    },
+    "done": true
+  },
+  "rats:recipes/tools/rat_flute": {
+    "criteria": {
+      "has_cotta": "2025-01-27 01:57:03 +0000"
     },
     "done": true
   },
