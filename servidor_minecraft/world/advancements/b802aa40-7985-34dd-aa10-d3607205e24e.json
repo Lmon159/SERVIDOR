@@ -1745,7 +1745,8 @@
       "minecraft:old_growth_spruce_taiga": "2025-01-27 02:43:58 +0000",
       "minecraft:warm_ocean": "2025-01-27 02:27:37 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-01-27 01:39:44 +0000",
-      "minecraft:savanna": "2025-01-27 01:11:24 +0000"
+      "minecraft:savanna": "2025-01-27 01:11:24 +0000",
+      "minecraft:plains": "2025-01-27 03:30:39 +0000"
     },
     "done": false
   },
@@ -4983,6 +4984,18 @@
     },
     "done": true
   },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-27 03:30:52 +0000"
+    },
+    "done": false
+  },
+  "iceandfire:recipes/combat/armor_silver_boots": {
+    "criteria": {
+      "has_item": "2025-01-27 03:21:07 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/secret_birch_sign_item": {
     "criteria": {
       "has_sign": "2025-01-27 03:07:05 +0000"
@@ -4995,9 +5008,28 @@
     },
     "done": true
   },
+  "iceandfire:recipes/combat/armor_silver_chestplate": {
+    "criteria": {
+      "has_item": "2025-01-27 03:21:07 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/secret_birch_hanging_sign": {
     "criteria": {
       "has_sign": "2025-01-27 03:07:05 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "requirement": "2025-01-27 03:31:03 +0000",
+      "log_spam_fixer": "2025-01-27 03:30:52 +0000"
+    },
+    "done": true
+  },
+  "undead_revamp2:parry": {
+    "criteria": {
+      "parry_0": "2025-01-27 03:17:48 +0000"
     },
     "done": true
   },
@@ -5010,6 +5042,12 @@
   "securitycraft:recipes/building_blocks/secret_warped_hanging_sign": {
     "criteria": {
       "has_sign": "2025-01-27 03:07:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2025-01-27 03:17:46 +0000"
     },
     "done": true
   },
@@ -5037,15 +5075,39 @@
     },
     "done": true
   },
+  "iceandfire:recipes/combat/armor_silver_leggings": {
+    "criteria": {
+      "has_item": "2025-01-27 03:21:07 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/secret_acacia_sign_item": {
     "criteria": {
       "has_sign": "2025-01-27 03:07:05 +0000"
     },
     "done": true
   },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-27 03:30:52 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2025-01-27 03:17:46 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/building_blocks/dragonscales_white_to_dragonscale_white": {
     "criteria": {
       "has_dragonscales_white": "2025-01-27 03:07:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2025-01-27 03:17:46 +0000"
     },
     "done": true
   },
@@ -5061,6 +5123,12 @@
     },
     "done": true
   },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-27 03:30:52 +0000"
+    },
+    "done": false
+  },
   "securitycraft:recipes/building_blocks/secret_jungle_sign_item": {
     "criteria": {
       "has_sign": "2025-01-27 03:07:05 +0000"
@@ -5072,6 +5140,24 @@
       "has_sign": "2025-01-27 03:07:05 +0000"
     },
     "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2025-01-27 03:21:44 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-27 03:30:52 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-27 03:30:52 +0000"
+    },
+    "done": false
   },
   "securitycraft:recipes/building_blocks/secret_acacia_hanging_sign": {
     "criteria": {
@@ -5085,6 +5171,12 @@
     },
     "done": true
   },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-27 03:30:52 +0000"
+    },
+    "done": false
+  },
   "securitycraft:recipes/building_blocks/secret_mangrove_hanging_sign": {
     "criteria": {
       "has_sign": "2025-01-27 03:07:05 +0000"
@@ -5094,6 +5186,18 @@
   "securitycraft:recipes/building_blocks/secret_warped_sign_item": {
     "criteria": {
       "has_sign": "2025-01-27 03:07:05 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-27 03:30:52 +0000"
+    },
+    "done": false
+  },
+  "iceandfire:recipes/combat/armor_silver_helmet": {
+    "criteria": {
+      "has_item": "2025-01-27 03:21:07 +0000"
     },
     "done": true
   },
@@ -5109,6 +5213,12 @@
     },
     "done": true
   },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-27 03:30:52 +0000"
+    },
+    "done": false
+  },
   "securitycraft:recipes/building_blocks/secret_dark_oak_sign_item": {
     "criteria": {
       "has_sign": "2025-01-27 03:07:05 +0000"
@@ -5121,11 +5231,23 @@
     },
     "done": true
   },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-27 03:30:52 +0000"
+    },
+    "done": false
+  },
   "rats:recipes/food/herb_bundle": {
     "criteria": {
       "has_flower": "2025-01-27 03:07:02 +0000"
     },
     "done": true
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-27 03:30:52 +0000"
+    },
+    "done": false
   },
   "iceandfire:recipes/building_blocks/silver_nugget_to_silver_ingot": {
     "criteria": {
@@ -5139,9 +5261,21 @@
     },
     "done": true
   },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-27 03:30:52 +0000"
+    },
+    "done": false
+  },
   "securitycraft:recipes/building_blocks/secret_cherry_sign_item": {
     "criteria": {
       "has_sign": "2025-01-27 03:07:05 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonscales_silver_to_dragonscale_silver": {
+    "criteria": {
+      "has_dragonscales_silver": "2025-01-27 03:21:07 +0000"
     },
     "done": true
   },
@@ -5154,6 +5288,12 @@
   "securitycraft:recipes/building_blocks/secret_oak_hanging_sign": {
     "criteria": {
       "has_sign": "2025-01-27 03:07:05 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/copper_ingot_to_nuggets": {
+    "criteria": {
+      "has_item": "2025-01-27 03:17:46 +0000"
     },
     "done": true
   },
