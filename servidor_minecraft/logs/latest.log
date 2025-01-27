@@ -509,3 +509,102 @@
 [27Jan2025 01:41:48.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to pepegrillo]
 [27Jan2025 01:42:44.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to WithoutD2]
 [27Jan2025 01:43:05.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to pepegrillo]
+[27Jan2025 01:44:42.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has reached the goal [Horror of the Depths]
+[27Jan2025 01:45:18.203] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KilFail moved wrongly!
+[27Jan2025 01:45:19.655] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KilFail moved wrongly!
+[27Jan2025 01:45:20.007] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KilFail moved wrongly!
+[27Jan2025 01:45:21.072] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KilFail moved wrongly!
+[27Jan2025 01:45:24.822] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KilFail moved wrongly!
+[27Jan2025 01:45:27.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail was slain by Giant Squid
+[27Jan2025 01:45:27.660] [Server thread/INFO] [tombstone/]: The player KilFail has successfully been saved
+[27Jan2025 01:45:32.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to WithoutD2]
+[27Jan2025 01:45:41.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to WithoutD2]
+[27Jan2025 01:47:07.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Mine? Mine? Mine?]
+[27Jan2025 01:48:55.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Who You Gonna Call?]
+[27Jan2025 01:48:59.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Who You Gonna Call?]
+[27Jan2025 01:49:06.599] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:49:10.499] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:49:11.500] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:49:13.201] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:49:27.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
+[27Jan2025 01:49:36.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Dark Metallurgy]
+[27Jan2025 01:49:38.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
+[27Jan2025 01:49:46.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 was slain by pepegrillo
+[27Jan2025 01:49:46.199] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
+[27Jan2025 01:49:49.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
+[27Jan2025 01:49:50.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Isn't It Iron Pick]
+[27Jan2025 01:49:50.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Knowledge of Death]
+[27Jan2025 01:49:50.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Funeral Theft]
+[27Jan2025 01:49:53.696] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:00.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has reached the goal [Here They Come]
+[27Jan2025 01:50:11.896] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:13.597] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:22.327] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:23.000] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:23.704] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:27.103] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:28.499] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:29.201] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:29.899] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:33.311] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:34.710] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:35.402] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:36.099] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:39.498] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:40.902] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:41.605] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:42.300] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:45.699] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:47.099] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:47.803] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:48.499] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:51.898] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:53.297] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:53.997] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:54.698] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:58.097] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:50:59.497] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:00.197] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:00.897] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:04.297] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:05.697] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:06.396] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:07.098] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:10.496] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:11.896] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:12.597] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:13.297] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:16.697] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:18.097] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:18.802] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:19.497] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:20.851] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:22.898] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:24.297] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:24.998] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:25.356] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:25.699] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:26.057] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:27.749] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:29.106] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:30.499] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:30.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Ambush]
+[27Jan2025 01:51:31.197] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:31.899] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:35.297] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:36.697] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:37.398] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:38.097] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:41.497] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:42.898] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:43.597] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:44.297] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:47.700] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:49.112] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:49.799] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:50.498] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:53.898] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:55.304] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:55.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Ambush]
+[27Jan2025 01:51:55.998] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 01:51:56.697] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.

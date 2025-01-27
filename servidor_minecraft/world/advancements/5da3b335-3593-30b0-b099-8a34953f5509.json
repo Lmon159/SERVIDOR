@@ -107,6 +107,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/food/fire_stew": {
+    "criteria": {
+      "has_item": "2025-01-27 01:49:50 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/ritual_moonfall": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
@@ -155,9 +161,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-01-27 01:49:50 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/platform_to_pedestal": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2025-01-27 01:50:12 +0000"
     },
     "done": true
   },
@@ -335,6 +353,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-27 01:43:33 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/redstone/reinforced_spruce_fence_gate": {
     "criteria": {
       "has_stick": "2025-01-27 01:08:37 +0000"
@@ -452,6 +476,12 @@
   "rats:recipes/food/cooked_rat_smelting": {
     "criteria": {
       "has_rat": "2025-01-27 01:33:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-27 01:43:33 +0000"
     },
     "done": true
   },
@@ -629,6 +659,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-27 01:43:33 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/ghost_chest": {
+    "criteria": {
+      "has_item": "2025-01-27 01:49:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2025-01-27 01:33:13 +0000"
@@ -791,6 +833,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-27 01:43:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/target": {
     "criteria": {
       "has_hay_block": "2025-01-27 01:14:41 +0000"
@@ -818,6 +866,12 @@
   "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
       "has_planks": "2025-01-27 01:16:17 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2025-01-27 01:49:50 +0000"
     },
     "done": true
   },
@@ -1046,6 +1100,12 @@
   "securitycraft:recipes/misc/keycard_lv2": {
     "criteria": {
       "has_iron": "2025-01-27 01:19:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2025-01-27 01:43:33 +0000"
     },
     "done": true
   },
@@ -1469,6 +1529,12 @@
     },
     "done": true
   },
+  "rats:recipes/misc/upgrades/flight_upgrade": {
+    "criteria": {
+      "has_lapis": "2025-01-27 01:49:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/crossbow": {
     "criteria": {
       "has_tripwire_hook": "2025-01-27 01:15:42 +0000"
@@ -1787,6 +1853,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/funeral_theft": {
+    "criteria": {
+      "coded_trigger": "2025-01-27 01:49:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
       "has_iron_ingot": "2025-01-27 01:19:19 +0000"
@@ -1865,6 +1937,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-01-27 01:49:50 +0000"
+    },
+    "done": true
+  },
   "rats:recipes/misc/hammocks/rat_hammock_black": {
     "criteria": {
       "has_string": "2025-01-27 01:33:13 +0000"
@@ -1910,6 +1988,12 @@
   "minecraft:recipes/building_blocks/bookshelf": {
     "criteria": {
       "has_book": "2025-01-27 01:19:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-01-27 01:49:50 +0000"
     },
     "done": true
   },
@@ -2273,6 +2357,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-27 01:43:33 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/source_gem_block": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
@@ -2471,6 +2561,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-27 01:43:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-27 01:43:33 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/manipulation_essence_to_grass_block": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
@@ -2564,6 +2666,12 @@
   "ars_nouveau:recipes/misc/smooth_gilded_sourcestone_small_bricks_stairs": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/upgrades/aquatic_upgrade": {
+    "criteria": {
+      "has_feesh": "2025-01-27 01:50:12 +0000"
     },
     "done": true
   },
@@ -2693,6 +2801,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-27 01:43:33 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/enchanting_apparatus": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
@@ -2774,6 +2888,12 @@
   "ars_nouveau:recipes/misc/blank_thread": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
+    },
+    "done": true
+  },
+  "rats:recipes/building_blocks/fish_barrel": {
+    "criteria": {
+      "has_fish": "2025-01-27 01:50:12 +0000"
     },
     "done": true
   },
@@ -2957,6 +3077,12 @@
     },
     "done": true
   },
+  "rats:recipes/misc/upgrades/fisherman_upgrade": {
+    "criteria": {
+      "has_fish": "2025-01-27 01:50:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
       "has_planks": "2025-01-27 01:37:35 +0000"
@@ -3089,6 +3215,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2025-01-27 01:50:12 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/sourcestone_alternating_to_sourcestone": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
@@ -3104,6 +3236,12 @@
   "rats:recipes/misc/hammocks/rat_hammock_light_blue": {
     "criteria": {
       "has_string": "2025-01-27 01:33:13 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/graveyard_soil": {
+    "criteria": {
+      "has_item": "2025-01-27 01:49:50 +0000"
     },
     "done": true
   },
@@ -3163,8 +3301,10 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:beach": "2025-01-27 01:47:12 +0000",
       "minecraft:lukewarm_ocean": "2025-01-27 01:39:03 +0000",
       "minecraft:river": "2025-01-27 01:30:20 +0000",
+      "minecraft:desert": "2025-01-27 01:47:27 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-01-27 01:39:48 +0000",
       "minecraft:savanna": "2025-01-27 01:06:33 +0000"
     },
@@ -3227,6 +3367,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "bread": "2025-01-27 01:15:55 +0000",
+      "beetroot": "2025-01-27 01:48:09 +0000",
       "carrot": "2025-01-27 01:29:54 +0000"
     },
     "done": false
@@ -3234,6 +3375,12 @@
   "ars_nouveau:recipes/misc/ritual_wilden_summon": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2025-01-27 01:50:12 +0000"
     },
     "done": true
   },

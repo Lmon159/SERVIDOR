@@ -95,6 +95,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/food/fire_stew": {
+    "criteria": {
+      "has_item": "2025-01-27 01:47:32 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/ritual_moonfall": {
     "criteria": {
       "has_journal": "2025-01-27 01:10:46 +0000"
@@ -329,6 +335,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-01-27 01:50:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_stairs": {
     "criteria": {
       "has_stone_bricks": "2025-01-27 01:15:13 +0000"
@@ -398,6 +410,12 @@
   "ars_nouveau:recipes/building_blocks/stripped_green_archwood_wood": {
     "criteria": {
       "has_journal": "2025-01-27 01:10:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-01-27 01:50:10 +0000"
     },
     "done": true
   },
@@ -512,6 +530,12 @@
   "rats:recipes/food/plague_stew": {
     "criteria": {
       "has_bowl": "2025-01-27 01:19:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-01-27 01:49:09 +0000"
     },
     "done": true
   },
@@ -707,6 +731,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/misc/ghost_chest": {
+    "criteria": {
+      "has_item": "2025-01-27 01:49:08 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/decorations/sourcestone_20": {
     "criteria": {
       "has_journal": "2025-01-27 01:10:46 +0000"
@@ -794,6 +824,12 @@
   "ars_nouveau:recipes/building_blocks/gilded_sourcestone_alternating_stonecutter_stair": {
     "criteria": {
       "has_journal": "2025-01-27 01:10:46 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/cancel_ghostly_shape": {
+    "criteria": {
+      "coded_trigger": "2025-01-27 01:50:00 +0000"
     },
     "done": true
   },
@@ -1013,6 +1049,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2025-01-27 01:50:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/hopper": {
     "criteria": {
       "has_iron_ingot": "2025-01-27 01:22:51 +0000"
@@ -1187,6 +1229,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-01-27 01:50:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
       "has_stick": "2025-01-27 01:13:21 +0000"
@@ -1196,6 +1244,12 @@
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_stick": "2025-01-27 01:13:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-01-27 01:50:10 +0000"
     },
     "done": true
   },
@@ -1325,6 +1379,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-01-27 01:50:10 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/ritual_awakening": {
     "criteria": {
       "has_journal": "2025-01-27 01:10:46 +0000"
@@ -1334,6 +1394,12 @@
   "minecraft:recipes/building_blocks/blackstone_slab": {
     "criteria": {
       "has_blackstone": "2025-01-27 01:32:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-01-27 01:50:10 +0000"
     },
     "done": true
   },
@@ -1376,6 +1442,12 @@
   "ars_nouveau:recipes/misc/redstone_relay": {
     "criteria": {
       "has_journal": "2025-01-27 01:10:46 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/food/gold_pile": {
+    "criteria": {
+      "has_item": "2025-01-27 01:49:09 +0000"
     },
     "done": true
   },
@@ -1961,6 +2033,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2025-01-27 01:50:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_chestplate": "2025-01-27 01:23:14 +0000"
@@ -2201,6 +2279,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-01-27 01:50:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2025-01-27 01:22:51 +0000"
@@ -2234,6 +2318,12 @@
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_redstone": "2025-01-27 01:33:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-01-27 01:49:09 +0000"
     },
     "done": true
   },
@@ -2561,6 +2651,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-01-27 01:50:10 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/redstone/reinforced_piston": {
     "criteria": {
       "has_redstone": "2025-01-27 01:33:20 +0000"
@@ -2606,6 +2702,12 @@
   "rats:recipes/misc/upgrades/lumberjack_upgrade": {
     "criteria": {
       "has_sapling": "2025-01-27 01:11:49 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/bestiary": {
+    "criteria": {
+      "has_item": "2025-01-27 01:49:09 +0000"
     },
     "done": true
   },
@@ -3347,6 +3449,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/building_blocks/graveyard_soil": {
+    "criteria": {
+      "has_item": "2025-01-27 01:49:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-01-27 01:32:22 +0000"
@@ -3409,7 +3517,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:beach": "2025-01-27 01:47:11 +0000",
       "minecraft:lukewarm_ocean": "2025-01-27 01:38:50 +0000",
+      "minecraft:desert": "2025-01-27 01:47:21 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-01-27 01:39:44 +0000",
       "minecraft:savanna": "2025-01-27 01:11:24 +0000"
     },
@@ -3433,9 +3543,21 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/kill_ghost": {
+    "criteria": {
+      "killed_fire_dragon": "2025-01-27 01:48:55 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/experience_gem": {
     "criteria": {
       "has_journal": "2025-01-27 01:10:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2025-01-27 01:50:10 +0000"
     },
     "done": true
   },
@@ -3483,6 +3605,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "pumpkin_pie": "2025-01-27 01:45:32 +0000",
       "bread": "2025-01-27 01:13:01 +0000",
       "mushroom_stew": "2025-01-27 01:19:51 +0000"
     },
