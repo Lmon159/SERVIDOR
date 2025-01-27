@@ -747,3 +747,30 @@
 [27Jan2025 02:22:14.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to WithoutD2]
 [27Jan2025 02:22:42.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to WithoutD2]
 [27Jan2025 02:23:58.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [The Desert Swimmers]
+[27Jan2025 02:26:36.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Ashes 'n Bones]
+[27Jan2025 02:26:36.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Life turned out to be a comedy]
+[27Jan2025 02:27:18.298] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 02:28:06.199] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 02:28:11.399] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 02:28:11.757] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1548, y=48, z=-288} BlockPos{x=1548, y=49, z=-288}
+[27Jan2025 02:28:14.908] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 02:28:17.297] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 02:28:18.998] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 02:31:16.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Junior Summoner]
+[27Jan2025 02:31:20.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has reached the goal [Bone Crusher]
+[27Jan2025 02:31:29.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Good Demoman]
+[27Jan2025 02:32:14.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Tie me to the Mast]
+[27Jan2025 02:32:28.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Tie me to the Mast]
+[27Jan2025 02:32:46.203] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KilFail lost connection: Disconnected
+[27Jan2025 02:32:46.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail left the game
+[27Jan2025 02:32:48.196] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 02:32:48.397] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 02:32:53.600] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 02:32:55.998] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 02:32:57.197] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 02:32:57.898] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 02:33:00.159] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: KilFail[/127.188.44.140:34691] logged in with entity id 40292 at (1694.957967437083, 63.0, -367.4917084109061)
+[27Jan2025 02:33:00.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail joined the game
+[27Jan2025 02:33:01.497] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 02:33:06.297] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[27Jan2025 02:33:29.207] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1711, y=48, z=-394} BlockPos{x=1711, y=49, z=-394}

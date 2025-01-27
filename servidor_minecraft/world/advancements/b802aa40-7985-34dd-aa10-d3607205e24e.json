@@ -377,6 +377,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/combat/deathworm_yellow_helmet": {
+    "criteria": {
+      "has_item": "2025-01-27 02:29:19 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/gilded_sourcestone_large_bricks_stairs": {
     "criteria": {
       "has_journal": "2025-01-27 01:10:46 +0000"
@@ -911,6 +917,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/combat/deathworm_white_chestplate": {
+    "criteria": {
+      "has_item": "2025-01-27 02:26:39 +0000"
+    },
+    "done": true
+  },
   "rats:recipes/combat/chef_toque": {
     "criteria": {
       "has_string": "2025-01-27 01:51:08 +0000"
@@ -1334,6 +1346,12 @@
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2025-01-27 01:36:40 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/deathworm_white_boots": {
+    "criteria": {
+      "has_item": "2025-01-27 02:26:39 +0000"
     },
     "done": true
   },
@@ -2507,6 +2525,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/combat/deathworm_white_helmet": {
+    "criteria": {
+      "has_item": "2025-01-27 02:26:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_fence_gate": {
     "criteria": {
       "has_planks": "2025-01-27 02:15:42 +0000"
@@ -2612,6 +2636,12 @@
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2025-01-27 01:28:27 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/deathworm_white_leggings": {
+    "criteria": {
+      "has_item": "2025-01-27 02:26:39 +0000"
     },
     "done": true
   },
@@ -2726,6 +2756,12 @@
   "securitycraft:recipes/misc/bouncing_betty": {
     "criteria": {
       "has_iron": "2025-01-27 01:22:51 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/deathworm_yellow_boots": {
+    "criteria": {
+      "has_item": "2025-01-27 02:29:19 +0000"
     },
     "done": true
   },
@@ -4187,6 +4223,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/combat/deathworm_yellow_leggings": {
+    "criteria": {
+      "has_item": "2025-01-27 02:29:19 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/ritual_conjure_island_plains": {
     "criteria": {
       "has_journal": "2025-01-27 01:10:46 +0000"
@@ -4318,6 +4360,7 @@
       "minecraft:beach": "2025-01-27 01:47:11 +0000",
       "minecraft:lukewarm_ocean": "2025-01-27 01:38:50 +0000",
       "minecraft:desert": "2025-01-27 01:47:21 +0000",
+      "minecraft:warm_ocean": "2025-01-27 02:27:37 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-01-27 01:39:44 +0000",
       "minecraft:savanna": "2025-01-27 01:11:24 +0000"
     },
@@ -4571,6 +4614,12 @@
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2025-01-27 01:22:51 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/deathworm_yellow_chestplate": {
+    "criteria": {
+      "has_item": "2025-01-27 02:29:19 +0000"
     },
     "done": true
   },

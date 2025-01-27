@@ -359,6 +359,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/combat/deathworm_yellow_helmet": {
+    "criteria": {
+      "has_item": "2025-01-27 02:28:20 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/gilded_sourcestone_large_bricks_stairs": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
@@ -458,6 +464,12 @@
   "minecraft:recipes/building_blocks/cut_sandstone": {
     "criteria": {
       "has_sandstone": "2025-01-27 01:57:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall": {
+    "criteria": {
+      "has_blackstone": "2025-01-27 02:20:27 +0000"
     },
     "done": true
   },
@@ -740,6 +752,18 @@
     },
     "done": false
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-27 02:20:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-27 02:20:27 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/archwood_chest": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
@@ -956,6 +980,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-27 02:20:27 +0000"
+    },
+    "done": true
+  },
   "rats:recipes/misc/hammocks/rat_hammock_gray": {
     "criteria": {
       "has_string": "2025-01-27 01:33:13 +0000"
@@ -1142,9 +1172,21 @@
     },
     "done": true
   },
+  "rats:recipes/misc/upgrades/remedy_upgrade": {
+    "criteria": {
+      "has_bottle": "2025-01-27 02:21:15 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/building_blocks/gilded_sourcestone_small_bricks_stonecutter_stair": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/skull_to_bone_meal": {
+    "criteria": {
+      "has_item": "2025-01-27 02:22:30 +0000"
     },
     "done": true
   },
@@ -1310,6 +1352,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/blackstone_stairs": {
+    "criteria": {
+      "has_blackstone": "2025-01-27 02:20:27 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/misc/keycard_lv5": {
     "criteria": {
       "has_iron": "2025-01-27 01:19:19 +0000"
@@ -1361,6 +1409,12 @@
   "iceandfire:recipes/combat/dragonbone_bow": {
     "criteria": {
       "has_item": "2025-01-27 02:10:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-27 02:20:27 +0000"
     },
     "done": true
   },
@@ -1622,6 +1676,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/blackstone_slab": {
+    "criteria": {
+      "has_blackstone": "2025-01-27 02:20:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2025-01-27 01:57:55 +0000"
@@ -1667,6 +1727,12 @@
   "ars_nouveau:recipes/misc/red_sbed": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-27 02:20:27 +0000"
     },
     "done": true
   },
@@ -2504,6 +2570,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-27 02:20:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
       "has_iron_ingot": "2025-01-27 01:19:19 +0000"
@@ -2525,6 +2597,12 @@
   "minecraft:recipes/redstone/oak_trapdoor": {
     "criteria": {
       "has_planks": "2025-01-27 01:37:35 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:lifeturnedouttobeacomedy": {
+    "criteria": {
+      "lifeturnedouttobeacomedy_0": "2025-01-27 02:26:36 +0000"
     },
     "done": true
   },
@@ -2597,6 +2675,12 @@
   "securitycraft:recipes/misc/bouncing_betty": {
     "criteria": {
       "has_iron": "2025-01-27 01:19:19 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/deathworm_yellow_boots": {
+    "criteria": {
+      "has_item": "2025-01-27 02:28:20 +0000"
     },
     "done": true
   },
@@ -2705,6 +2789,12 @@
   "minecraft:recipes/food/baked_potato": {
     "criteria": {
       "has_potato": "2025-01-27 01:53:18 +0000"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/crimson_liquid": {
+    "criteria": {
+      "has_bottle": "2025-01-27 02:21:15 +0000"
     },
     "done": true
   },
@@ -3332,6 +3422,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-27 02:20:27 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/basic_spell_turret": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
@@ -3383,6 +3479,12 @@
   "rats:recipes/misc/upgrades/chef_upgrade": {
     "criteria": {
       "has_apple": "2025-01-27 02:04:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-27 02:20:27 +0000"
     },
     "done": true
   },
@@ -3548,6 +3650,12 @@
     },
     "done": true
   },
+  "rats:recipes/misc/upgrades/support_upgrade": {
+    "criteria": {
+      "has_bottle": "2025-01-27 02:21:15 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/redstone/reinforced_warped_fence_gate": {
     "criteria": {
       "has_stick": "2025-01-27 01:08:37 +0000"
@@ -3563,6 +3671,12 @@
   "ars_nouveau:recipes/misc/smooth_sourcestone_small_bricks_to_sourcestone": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-27 02:20:27 +0000"
     },
     "done": true
   },
@@ -3758,6 +3872,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone": {
+    "criteria": {
+      "has_blackstone": "2025-01-27 02:20:27 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/decorations/sourcestone_3": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
@@ -3926,6 +4046,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-27 02:20:27 +0000"
+    },
+    "done": true
+  },
   "rats:all_hats": {
     "criteria": {
       "has_archeologist_hat": "2025-01-27 01:17:04 +0000"
@@ -3947,6 +4073,12 @@
   "minecraft:recipes/decorations/acacia_fence": {
     "criteria": {
       "has_planks": "2025-01-27 01:08:27 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/deathworm_yellow_leggings": {
+    "criteria": {
+      "has_item": "2025-01-27 02:28:20 +0000"
     },
     "done": true
   },
@@ -4007,6 +4139,12 @@
   "botania:recipes/redstone/red_string_interceptor": {
     "criteria": {
       "has_base_block": "2025-01-27 02:02:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-27 02:20:27 +0000"
     },
     "done": true
   },
@@ -4082,6 +4220,7 @@
       "minecraft:lukewarm_ocean": "2025-01-27 01:39:03 +0000",
       "minecraft:river": "2025-01-27 01:30:20 +0000",
       "minecraft:desert": "2025-01-27 01:47:27 +0000",
+      "minecraft:warm_ocean": "2025-01-27 02:27:37 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-01-27 01:39:48 +0000",
       "minecraft:savanna": "2025-01-27 01:06:33 +0000"
     },
@@ -4232,9 +4371,21 @@
     },
     "done": true
   },
+  "iceandfire:recipes/misc/dragon_stick": {
+    "criteria": {
+      "has_item": "2025-01-27 02:22:30 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/magebloom_to_pink": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ashes_and_bones": {
+    "criteria": {
+      "coded_trigger": "2025-01-27 02:26:36 +0000"
     },
     "done": true
   },
@@ -4307,6 +4458,18 @@
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2025-01-27 01:19:19 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/deathworm_yellow_chestplate": {
+    "criteria": {
+      "has_item": "2025-01-27 02:28:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-27 02:20:27 +0000"
     },
     "done": true
   },
