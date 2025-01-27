@@ -774,3 +774,44 @@
 [27Jan2025 02:33:01.497] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
 [27Jan2025 02:33:06.297] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
 [27Jan2025 02:33:29.207] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1711, y=48, z=-394} BlockPos{x=1711, y=49, z=-394}
+[27Jan2025 02:34:41.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 was burnt to a crisp whilst fighting Fire Dragon
+[27Jan2025 02:34:41.361] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
+[27Jan2025 02:34:45.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
+[27Jan2025 02:34:51.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Ol' Betsy]
+[27Jan2025 02:34:53.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Take Aim]
+[27Jan2025 02:35:15.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Dragonslayer]
+[27Jan2025 02:35:45.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Voluntary Exile]
+[27Jan2025 02:35:56.692] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [115, -40], pos: MutableBlockPos{x=1842, y=15, z=-640}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / terralith:cave/thermal/dripstone]
+[27Jan2025 02:35:56.692] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [115, -40], pos: MutableBlockPos{x=1842, y=16, z=-640}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / terralith:cave/thermal/dripstone]
+[27Jan2025 02:35:59.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Rigged from the Start]
+[27Jan2025 02:36:12.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Ice Bucket Challenge]
+[27Jan2025 02:36:52.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [The Desert Swimmers]
+[27Jan2025 02:39:02.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Sky of Beginning]
+[27Jan2025 02:40:14.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [A Strange Grave Dust]
+[27Jan2025 02:40:43.851] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-195, y=-54, z=-92}
+[27Jan2025 02:40:43.852] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-54, z=-88}
+[27Jan2025 02:40:43.852] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-50, z=-85}
+[27Jan2025 02:40:43.852] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-51, z=-89}
+[27Jan2025 02:40:43.852] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-186, y=-50, z=-90}
+[27Jan2025 02:40:43.854] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-186, y=-45, z=-87}
+[27Jan2025 02:40:43.854] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-189, y=-45, z=-84}
+[27Jan2025 02:40:44.049] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-178, y=-45, z=-85}
+[27Jan2025 02:40:44.050] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-178, y=-41, z=-89}
+[27Jan2025 02:40:44.050] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-92}
+[27Jan2025 02:40:44.050] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-93}
+[27Jan2025 02:40:44.050] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-175, y=-41, z=-90}
+[27Jan2025 02:40:44.057] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-274, y=-57, z=-245}
+[27Jan2025 02:40:44.057] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-276, y=-57, z=-243}
+[27Jan2025 02:40:44.057] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-277, y=-57, z=-244}
+[27Jan2025 02:41:01.497] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-54, z=-74}
+[27Jan2025 02:41:01.497] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-50, z=-77}
+[27Jan2025 02:41:01.498] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-50, z=-72}
+[27Jan2025 02:41:01.498] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-184, y=-45, z=-75}
+[27Jan2025 02:41:01.499] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-182, y=-45, z=-75}
+[27Jan2025 02:41:01.596] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-177, y=-55, z=-77}
+[27Jan2025 02:41:01.596] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-181, y=-50, z=-73}
+[27Jan2025 02:41:01.597] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-70}
+[27Jan2025 02:41:04.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
+[27Jan2025 02:42:21.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
+[27Jan2025 02:42:51.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Best Friends Forever]
+[27Jan2025 02:43:20.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to pepegrillo]
