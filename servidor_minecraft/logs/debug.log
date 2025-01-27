@@ -5750,3 +5750,32 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [27Jan2025 01:22:09.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Best Friends Forever]
 [27Jan2025 01:22:51.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Acquire Hardware]
 [27Jan2025 01:23:14.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Suit Up]
+[27Jan2025 01:24:07.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo fell from a high place
+[27Jan2025 01:24:07.607] [Server thread/DEBUG] [tombstone/]: A new grave of the player pepegrillo was created at position [x:82, y:73, z:630, dim:minecraft:overworld]
+[27Jan2025 01:24:07.608] [Server thread/INFO] [tombstone/]: The player pepegrillo has successfully been saved
+[27Jan2025 01:24:08.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 fell from a high place
+[27Jan2025 01:24:08.689] [Server thread/DEBUG] [tombstone/]: A new grave of the player WithoutD2 was created at position [x:76, y:75, z:629, dim:minecraft:overworld]
+[27Jan2025 01:24:08.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Your First Grave]
+[27Jan2025 01:24:08.692] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
+[27Jan2025 01:24:14.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to WithoutD2]
+[27Jan2025 01:24:14.457] [Server thread/WARN] [net.minecraft.world.level.block.entity.SignBlockEntity/]: Player WithoutD2 just tried to change non-editable sign
+[27Jan2025 01:24:18.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
+[27Jan2025 01:24:22.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
+[27Jan2025 01:25:26.901] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jan2025 01:25:26.916] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jan2025 01:26:58.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Good Demoman]
+[27Jan2025 01:28:01.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Deceived Hopes]
+[27Jan2025 01:28:27.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail was slain by pepegrillo
+[27Jan2025 01:28:27.142] [Server thread/DEBUG] [tombstone/]: A new grave of the player KilFail was created at position [x:29, y:12, z:592, dim:minecraft:overworld]
+[27Jan2025 01:28:27.147] [Server thread/INFO] [tombstone/]: The player KilFail has successfully been saved
+[27Jan2025 01:28:27.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Isn't It Iron Pick]
+[27Jan2025 01:28:32.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to pepegrillo]
+[27Jan2025 01:29:36.595] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Pet Shop Owner'/934, l='ServerLevel[world]', x=93.49, y=74.00, z=600.68] died, message: 'Pet Shop Owner hit the ground too hard'
+[27Jan2025 01:30:26.907] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jan2025 01:30:26.923] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jan2025 01:31:07.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
+[27Jan2025 01:32:33.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Suit Up]
+[27Jan2025 01:33:04.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Diamonds!]
+[27Jan2025 01:33:13.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Diamonds!]
+[27Jan2025 01:33:37.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Suit Up]
+[27Jan2025 01:33:38.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Mutual Aid]
