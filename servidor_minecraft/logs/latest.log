@@ -1,817 +1,105 @@
-[27Jan2025 01:03:38.122] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[27Jan2025 01:03:38.130] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[27Jan2025 01:03:39.546] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[27Jan2025 01:03:39.603] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/SERVIDOR/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[27Jan2025 01:03:39.918] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SERVIDOR/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[27Jan2025 01:03:39.920] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SERVIDOR/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[27Jan2025 01:03:39.921] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SERVIDOR/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[27Jan2025 01:03:39.922] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SERVIDOR/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[27Jan2025 01:03:40.105] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[27Jan2025 01:03:40.107] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
-[27Jan2025 01:03:42.254] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[27Jan2025 01:03:42.311] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[27Jan2025 01:03:42.387] [main/WARN] [mixin/]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
-[27Jan2025 01:03:43.996] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[27Jan2025 01:03:51.104] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[27Jan2025 03:04:36.419] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[27Jan2025 03:04:36.423] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[27Jan2025 03:04:38.291] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[27Jan2025 03:04:38.364] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/SERVIDOR/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[27Jan2025 03:04:38.680] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SERVIDOR/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[27Jan2025 03:04:38.682] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SERVIDOR/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[27Jan2025 03:04:38.684] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SERVIDOR/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[27Jan2025 03:04:38.685] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SERVIDOR/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[27Jan2025 03:04:38.876] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[27Jan2025 03:04:38.878] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[27Jan2025 03:04:41.305] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[27Jan2025 03:04:41.375] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[27Jan2025 03:04:41.474] [main/WARN] [mixin/]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
+[27Jan2025 03:04:43.527] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[27Jan2025 03:04:52.635] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[27Jan2025 01:03:53.062] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[27Jan2025 01:03:53.063] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[27Jan2025 01:03:58.467] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
-[27Jan2025 01:03:58.490] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[27Jan2025 01:03:58.711] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/SERVIDOR/servidor_minecraft/config/sophisticatedcore-common.toml is not correct. Correcting
-[27Jan2025 01:03:58.712] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:03:58.712] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.enabledItems was corrected from null to its default, []. 
-[27Jan2025 01:03:58.825] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/SERVIDOR/servidor_minecraft/config/sophisticatedbackpacks-common.toml is not correct. Correcting
-[27Jan2025 01:03:58.826] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:03:58.826] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.chestLootEnabled was corrected from null to its default, true. 
-[27Jan2025 01:03:59.093] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[27Jan2025 01:03:59.144] [main/INFO] [journeymap/]: Initializing Packet Registries
-[27Jan2025 01:03:59.280] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
-[27Jan2025 01:03:59.281] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[27Jan2025 01:03:59.477] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.12 Target: null
-[27Jan2025 01:03:59.478] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[27Jan2025 01:03:59.525] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.9.0 Target: null
-[27Jan2025 01:03:59.525] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[27Jan2025 01:03:59.637] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.25
-[27Jan2025 01:04:05.383] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[27Jan2025 01:04:05.440] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/SERVIDOR/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23151!/assets/.mcassetsroot' uses unexpected schema
-[27Jan2025 01:04:05.441] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/SERVIDOR/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23151!/data/.mcassetsroot' uses unexpected schema
-[27Jan2025 01:04:05.505] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack alexscaves_compat, loading it automatically
-[27Jan2025 01:04:07.651] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[27Jan2025 01:04:09.538] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 34 recipes
-[27Jan2025 01:04:09.719] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4695 advancements
-[27Jan2025 01:04:09.732] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 14 curio slots
-[27Jan2025 01:04:09.738] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[27Jan2025 01:04:09.779] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: netherexp:sounds/polished_blackstone
-[27Jan2025 01:04:09.798] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
-[27Jan2025 01:04:12.970] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[27Jan2025 01:04:12.970] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[27Jan2025 01:04:12.971] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[27Jan2025 01:04:12.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[27Jan2025 01:04:13.052] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[27Jan2025 01:04:13.087] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[27Jan2025 01:04:13.178] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[27Jan2025 01:04:13.178] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[27Jan2025 01:04:13.179] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[27Jan2025 01:04:13.179] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[27Jan2025 01:04:13.193] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/jei-server.toml is not correct. Correcting
-[27Jan2025 01:04:13.194] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.195] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
-[27Jan2025 01:04:13.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
-[27Jan2025 01:04:13.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
-[27Jan2025 01:04:13.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/curios-server.toml is not correct. Correcting
-[27Jan2025 01:04:13.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key keepCurios was corrected from null to its default, DEFAULT. 
-[27Jan2025 01:04:13.199] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.199] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.enableLegacyMenu was corrected from null to its default, false. 
-[27Jan2025 01:04:13.199] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.experimental was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.200] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.experimental.minimumColumns was corrected from null to its default, 1. 
-[27Jan2025 01:04:13.200] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.experimental.maxSlotsPerPage was corrected from null to its default, 48. 
-[27Jan2025 01:04:13.201] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/journeymap-server.toml is not correct. Correcting
-[27Jan2025 01:04:13.202] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.202] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.opAccess was corrected from null to its default, true. 
-[27Jan2025 01:04:13.203] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.serverAdmins was corrected from null to its default, [mysticdrew, 79f597fe-2877-4ecb-acdf-8c58cc1854ca]. 
-[27Jan2025 01:04:13.204] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[27Jan2025 01:04:13.204] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[27Jan2025 01:04:13.206] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/securitycraft-server.toml is not correct. Correcting
-[27Jan2025 01:04:13.206] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key codebreaker_chance was corrected from null to its default, 0.33. 
-[27Jan2025 01:04:13.207] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowAdminTool was corrected from null to its default, true. 
-[27Jan2025 01:04:13.207] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shouldSpawnFire was corrected from null to its default, true. 
-[27Jan2025 01:04:13.208] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ableToBreakMines was corrected from null to its default, true. 
-[27Jan2025 01:04:13.209] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key smallerMineExplosion was corrected from null to its default, false. 
-[27Jan2025 01:04:13.210] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mineExplodesWhenInCreative was corrected from null to its default, true. 
-[27Jan2025 01:04:13.211] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mineExplosionsBreakBlocks was corrected from null to its default, true. 
-[27Jan2025 01:04:13.212] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key laserBlockRange was corrected from null to its default, 5. 
-[27Jan2025 01:04:13.213] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryScannerRange was corrected from null to its default, 2. 
-[27Jan2025 01:04:13.214] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key maxAlarmRange was corrected from null to its default, 100. 
-[27Jan2025 01:04:13.215] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowBlockClaim was corrected from null to its default, false. 
-[27Jan2025 01:04:13.215] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key reinforced_block_tint was corrected from null to its default, true. 
-[27Jan2025 01:04:13.216] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key force_reinforced_block_tint was corrected from null to its default, false. 
-[27Jan2025 01:04:13.217] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key retinalScannerFace was corrected from null to its default, true. 
-[27Jan2025 01:04:13.218] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enable_team_ownership was corrected from null to its default, false. 
-[27Jan2025 01:04:13.219] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key team_ownership_precedence was corrected from null to its default, [FTB_TEAMS, VANILLA]. 
-[27Jan2025 01:04:13.220] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key disable_thanks_message was corrected from null to its default, false. 
-[27Jan2025 01:04:13.221] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trick_scanners_with_player_heads was corrected from null to its default, false. 
-[27Jan2025 01:04:13.222] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key prevent_reinforced_floor_glitching was corrected from null to its default, false. 
-[27Jan2025 01:04:13.224] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key taser_damage was corrected from null to its default, 1.0. 
-[27Jan2025 01:04:13.225] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key powered_taser_damage was corrected from null to its default, 2.0. 
-[27Jan2025 01:04:13.226] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key taser_effects was corrected from null to its default, [minecraft:weakness|200|2, minecraft:nausea|200|2, minecraft:slowness|200|2]. 
-[27Jan2025 01:04:13.227] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key powered_taser_effects was corrected from null to its default, [minecraft:weakness|400|5, minecraft:nausea|400|5, minecraft:slowness|400|5]. 
-[27Jan2025 01:04:13.228] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key laser_damage was corrected from null to its default, 10.0. 
-[27Jan2025 01:04:13.230] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key incorrectPasscodeDamage was corrected from null to its default, 4. 
-[27Jan2025 01:04:13.231] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_bullet_damage was corrected from null to its default, 2. 
-[27Jan2025 01:04:13.232] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key reinforced_suffocation_damage was corrected from null to its default, 5. 
-[27Jan2025 01:04:13.234] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allow_camera_night_vision was corrected from null to its default, true. 
-[27Jan2025 01:04:13.235] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_check_cooldown was corrected from null to its default, 250. 
-[27Jan2025 01:04:13.237] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_spam_log_warning_enabled was corrected from null to its default, true. 
-[27Jan2025 01:04:13.238] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_spam_log_warning was corrected from null to its default, Player "%1$s" tried to enter a passcode into "%2$s" at position [%3$s] too quickly!. 
-[27Jan2025 01:04:13.239] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key in_world_un_reinforcing was corrected from null to its default, true. 
-[27Jan2025 01:04:13.240] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_attackable_entities_allowlist was corrected from null to its default, []. 
-[27Jan2025 01:04:13.242] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_attackable_entities_denylist was corrected from null to its default, []. 
-[27Jan2025 01:04:13.256] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/sophisticatedbackpacks-server.toml is not correct. Correcting
-[27Jan2025 01:04:13.256] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.257] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.disallowedItems was corrected from null to its default, []. 
-[27Jan2025 01:04:13.257] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.containerItemsDisallowed was corrected from null to its default, false. 
-[27Jan2025 01:04:13.257] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.noInteractionBlocks was corrected from null to its default, []. 
-[27Jan2025 01:04:13.258] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.noConnectionBlocks was corrected from null to its default, []. 
-[27Jan2025 01:04:13.258] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.leatherBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.258] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.leatherBackpack.inventorySlotCount was corrected from null to its default, 27. 
-[27Jan2025 01:04:13.258] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.leatherBackpack.upgradeSlotCount was corrected from null to its default, 1. 
-[27Jan2025 01:04:13.259] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.copperBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.259] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.copperBackpack.inventorySlotCount was corrected from null to its default, 45. 
-[27Jan2025 01:04:13.259] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.copperBackpack.upgradeSlotCount was corrected from null to its default, 1. 
-[27Jan2025 01:04:13.259] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ironBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.259] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ironBackpack.inventorySlotCount was corrected from null to its default, 54. 
-[27Jan2025 01:04:13.260] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ironBackpack.upgradeSlotCount was corrected from null to its default, 2. 
-[27Jan2025 01:04:13.260] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.goldBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.260] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.goldBackpack.inventorySlotCount was corrected from null to its default, 81. 
-[27Jan2025 01:04:13.260] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.goldBackpack.upgradeSlotCount was corrected from null to its default, 3. 
-[27Jan2025 01:04:13.261] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.diamondBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.261] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.diamondBackpack.inventorySlotCount was corrected from null to its default, 108. 
-[27Jan2025 01:04:13.261] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.diamondBackpack.upgradeSlotCount was corrected from null to its default, 5. 
-[27Jan2025 01:04:13.261] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.netheriteBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.262] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.netheriteBackpack.inventorySlotCount was corrected from null to its default, 120. 
-[27Jan2025 01:04:13.262] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.netheriteBackpack.upgradeSlotCount was corrected from null to its default, 7. 
-[27Jan2025 01:04:13.262] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.compactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.262] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.compactingUpgrade.filterSlots was corrected from null to its default, 9. 
-[27Jan2025 01:04:13.263] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.compactingUpgrade.slotsInRow was corrected from null to its default, 3. 
-[27Jan2025 01:04:13.264] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedCompactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.264] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedCompactingUpgrade.filterSlots was corrected from null to its default, 16. 
-[27Jan2025 01:04:13.264] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedCompactingUpgrade.slotsInRow was corrected from null to its default, 4. 
-[27Jan2025 01:04:13.264] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.depositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.264] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.depositUpgrade.filterSlots was corrected from null to its default, 9. 
-[27Jan2025 01:04:13.265] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.depositUpgrade.slotsInRow was corrected from null to its default, 3. 
-[27Jan2025 01:04:13.265] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedDepositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.265] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedDepositUpgrade.filterSlots was corrected from null to its default, 16. 
-[27Jan2025 01:04:13.265] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedDepositUpgrade.slotsInRow was corrected from null to its default, 4. 
-[27Jan2025 01:04:13.266] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.feedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.266] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.feedingUpgrade.filterSlots was corrected from null to its default, 9. 
-[27Jan2025 01:04:13.266] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.feedingUpgrade.slotsInRow was corrected from null to its default, 3. 
-[27Jan2025 01:04:13.266] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFeedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.267] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFeedingUpgrade.filterSlots was corrected from null to its default, 16. 
-[27Jan2025 01:04:13.267] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFeedingUpgrade.slotsInRow was corrected from null to its default, 4. 
-[27Jan2025 01:04:13.267] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.filterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.268] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.filterUpgrade.filterSlots was corrected from null to its default, 9. 
-[27Jan2025 01:04:13.268] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.filterUpgrade.slotsInRow was corrected from null to its default, 3. 
-[27Jan2025 01:04:13.268] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFilterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.268] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFilterUpgrade.filterSlots was corrected from null to its default, 16. 
-[27Jan2025 01:04:13.268] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFilterUpgrade.slotsInRow was corrected from null to its default, 4. 
-[27Jan2025 01:04:13.269] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.269] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade.filterSlots was corrected from null to its default, 9. 
-[27Jan2025 01:04:13.269] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade.slotsInRow was corrected from null to its default, 3. 
-[27Jan2025 01:04:13.269] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade.magnetRange was corrected from null to its default, 3. 
-[27Jan2025 01:04:13.270] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.270] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade.filterSlots was corrected from null to its default, 16. 
-[27Jan2025 01:04:13.270] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade.slotsInRow was corrected from null to its default, 4. 
-[27Jan2025 01:04:13.271] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade.magnetRange was corrected from null to its default, 5. 
-[27Jan2025 01:04:13.272] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.272] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pickupUpgrade.filterSlots was corrected from null to its default, 9. 
-[27Jan2025 01:04:13.272] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pickupUpgrade.slotsInRow was corrected from null to its default, 3. 
-[27Jan2025 01:04:13.272] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedPickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.272] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedPickupUpgrade.filterSlots was corrected from null to its default, 16. 
-[27Jan2025 01:04:13.273] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedPickupUpgrade.slotsInRow was corrected from null to its default, 4. 
-[27Jan2025 01:04:13.274] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.refillUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.274] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.refillUpgrade.filterSlots was corrected from null to its default, 6. 
-[27Jan2025 01:04:13.274] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.refillUpgrade.slotsInRow was corrected from null to its default, 3. 
-[27Jan2025 01:04:13.274] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRefillUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRefillUpgrade.filterSlots was corrected from null to its default, 12. 
-[27Jan2025 01:04:13.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRefillUpgrade.slotsInRow was corrected from null to its default, 4. 
-[27Jan2025 01:04:13.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.restockUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.restockUpgrade.filterSlots was corrected from null to its default, 9. 
-[27Jan2025 01:04:13.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.restockUpgrade.slotsInRow was corrected from null to its default, 3. 
-[27Jan2025 01:04:13.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRestockUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRestockUpgrade.filterSlots was corrected from null to its default, 16. 
-[27Jan2025 01:04:13.278] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRestockUpgrade.slotsInRow was corrected from null to its default, 4. 
-[27Jan2025 01:04:13.279] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.279] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade.filterSlots was corrected from null to its default, 9. 
-[27Jan2025 01:04:13.279] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade.slotsInRow was corrected from null to its default, 3. 
-[27Jan2025 01:04:13.280] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade.voidAnythingEnabled was corrected from null to its default, true. 
-[27Jan2025 01:04:13.281] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.281] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade.filterSlots was corrected from null to its default, 16. 
-[27Jan2025 01:04:13.281] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade.slotsInRow was corrected from null to its default, 4. 
-[27Jan2025 01:04:13.282] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade.voidAnythingEnabled was corrected from null to its default, true. 
-[27Jan2025 01:04:13.283] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.stackUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.283] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.stackUpgrade.nonStackableItems was corrected from null to its default, [minecraft:bundle, minecraft:shulker_box, minecraft:white_shulker_box, minecraft:orange_shulker_box, minecraft:magenta_shulker_box, minecraft:light_blue_shulker_box, minecraft:yellow_shulker_box, minecraft:lime_shulker_box, minecraft:pink_shulker_box, minecraft:gray_shulker_box, minecraft:light_gray_shulker_box, minecraft:cyan_shulker_box, minecraft:purple_shulker_box, minecraft:blue_shulker_box, minecraft:brown_shulker_box, minecraft:green_shulker_box, minecraft:red_shulker_box, minecraft:black_shulker_box]. 
-[27Jan2025 01:04:13.284] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.284] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[27Jan2025 01:04:13.285] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[27Jan2025 01:04:13.285] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smokingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.286] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smokingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[27Jan2025 01:04:13.286] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smokingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[27Jan2025 01:04:13.287] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.blastingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.287] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.blastingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[27Jan2025 01:04:13.287] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.blastingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[27Jan2025 01:04:13.288] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.288] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[27Jan2025 01:04:13.288] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[27Jan2025 01:04:13.289] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
-[27Jan2025 01:04:13.289] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
-[27Jan2025 01:04:13.289] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
-[27Jan2025 01:04:13.289] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
-[27Jan2025 01:04:13.290] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.290] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[27Jan2025 01:04:13.290] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[27Jan2025 01:04:13.291] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
-[27Jan2025 01:04:13.291] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
-[27Jan2025 01:04:13.291] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
-[27Jan2025 01:04:13.292] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
-[27Jan2025 01:04:13.292] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.292] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[27Jan2025 01:04:13.293] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[27Jan2025 01:04:13.293] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
-[27Jan2025 01:04:13.293] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
-[27Jan2025 01:04:13.293] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
-[27Jan2025 01:04:13.294] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
-[27Jan2025 01:04:13.294] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.inceptionUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.294] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.inceptionUpgrade.upgradesUseInventoriesOfBackpacksInBackpack was corrected from null to its default, true. 
-[27Jan2025 01:04:13.294] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.inceptionUpgrade.upgradesInContainedBackpacksAreFunctional was corrected from null to its default, true. 
-[27Jan2025 01:04:13.295] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.toolSwapperUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.295] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.toolSwapperUpgrade.filterSlots was corrected from null to its default, 8. 
-[27Jan2025 01:04:13.295] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.toolSwapperUpgrade.slotsInRow was corrected from null to its default, 4. 
-[27Jan2025 01:04:13.296] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.296] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.capacityPerSlotRow was corrected from null to its default, 4000. 
-[27Jan2025 01:04:13.296] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.stackMultiplierRatio was corrected from null to its default, 1.0. 
-[27Jan2025 01:04:13.296] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.autoFillDrainContainerCooldown was corrected from null to its default, 20. 
-[27Jan2025 01:04:13.297] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.maxInputOutput was corrected from null to its default, 20. 
-[27Jan2025 01:04:13.297] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.energyPerSlotRow was corrected from null to its default, 10000. 
-[27Jan2025 01:04:13.297] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.298] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade.filterSlots was corrected from null to its default, 4. 
-[27Jan2025 01:04:13.298] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade.maxInputOutput was corrected from null to its default, 20. 
-[27Jan2025 01:04:13.298] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade.stackMultiplierRatio was corrected from null to its default, 1.0. 
-[27Jan2025 01:04:13.299] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.xpPumpUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.299] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.xpPumpUpgrade.mendingOn was corrected from null to its default, true. 
-[27Jan2025 01:04:13.300] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.xpPumpUpgrade.maxXpPointsPerMending was corrected from null to its default, 5. 
-[27Jan2025 01:04:13.300] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedJukeboxUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.300] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedJukeboxUpgrade.numberOfSlots was corrected from null to its default, 12. 
-[27Jan2025 01:04:13.300] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedJukeboxUpgrade.slotsInRow was corrected from null to its default, 4. 
-[27Jan2025 01:04:13.301] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.301] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.chance was corrected from null to its default, 0.01. 
-[27Jan2025 01:04:13.301] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.addLoot was corrected from null to its default, true. 
-[27Jan2025 01:04:13.301] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.buffWithPotionEffects was corrected from null to its default, true. 
-[27Jan2025 01:04:13.302] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.buffHealth was corrected from null to its default, true. 
-[27Jan2025 01:04:13.304] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.equipWithArmor was corrected from null to its default, true. 
-[27Jan2025 01:04:13.306] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.entityLootTableList was corrected from null to its default, [minecraft:creeper|minecraft:chests/desert_pyramid, minecraft:drowned|minecraft:chests/shipwreck_treasure, minecraft:enderman|minecraft:chests/end_city_treasure, minecraft:evoker|minecraft:chests/woodland_mansion, minecraft:husk|minecraft:chests/desert_pyramid, minecraft:piglin|minecraft:chests/bastion_bridge, minecraft:piglin_brute|minecraft:chests/bastion_treasure, minecraft:pillager|minecraft:chests/pillager_outpost, minecraft:skeleton|minecraft:chests/simple_dungeon, minecraft:stray|minecraft:chests/igloo_chest, minecraft:vex|minecraft:chests/woodland_mansion, minecraft:vindicator|minecraft:chests/woodland_mansion, minecraft:witch|minecraft:chests/buried_treasure, minecraft:wither_skeleton|minecraft:chests/nether_bridge, minecraft:zombie|minecraft:chests/simple_dungeon, minecraft:zombie_villager|minecraft:chests/village/village_armorer, minecraft:zombified_piglin|minecraft:chests/bastion_other]. 
-[27Jan2025 01:04:13.307] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.discBlockList was corrected from null to its default, [botania:record_gaia_1, botania:record_gaia_2]. 
-[27Jan2025 01:04:13.307] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.playJukebox was corrected from null to its default, true. 
-[27Jan2025 01:04:13.307] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.dropToFakePlayers was corrected from null to its default, false. 
-[27Jan2025 01:04:13.308] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.backpackDropChance was corrected from null to its default, 0.5. 
-[27Jan2025 01:04:13.308] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.lootingChanceIncreasePerLevel was corrected from null to its default, 0.15. 
-[27Jan2025 01:04:13.308] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.309] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.tooManyBackpacksSlowness was corrected from null to its default, false. 
-[27Jan2025 01:04:13.309] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.maxNumberOfBackpacks was corrected from null to its default, 3. 
-[27Jan2025 01:04:13.309] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.slownessLevelsPerAdditionalBackpack was corrected from null to its default, 1.0. 
-[27Jan2025 01:04:13.309] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.onlyWornBackpackTriggersUpgrades was corrected from null to its default, false. 
-[27Jan2025 01:04:13.310] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.maxUpgradesPerStorage was corrected from null to its default, [stack_upgrades|3, furnace_upgrades|1, jukebox_upgrades|1]. 
-[27Jan2025 01:04:13.310] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.itemFluidHandlerEnabled was corrected from null to its default, true. 
-[27Jan2025 01:04:13.310] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.allowOpeningOtherPlayerBackpacks was corrected from null to its default, true. 
-[27Jan2025 01:04:13.310] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.itemDisplayDisabled was corrected from null to its default, false. 
-[27Jan2025 01:04:13.311] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tickDedupeLogicDisabled was corrected from null to its default, false. 
-[27Jan2025 01:04:13.311] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.canBePlacedInContainerItems was corrected from null to its default, false. 
-[27Jan2025 01:04:13.319] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[27Jan2025 01:04:13.320] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[27Jan2025 01:04:13.320] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[27Jan2025 01:04:13.320] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[27Jan2025 01:04:13.321] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[27Jan2025 01:04:13.321] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[27Jan2025 01:04:13.321] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[27Jan2025 01:04:13.321] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[27Jan2025 01:04:13.322] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
-[27Jan2025 01:04:13.651] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:the_nether
-[27Jan2025 01:04:13.652] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:overworld
-[27Jan2025 01:04:13.654] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[27Jan2025 01:04:15.255] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.TamableAnimal from interface com.hollingsworth.arsnouveau.common.entity.IFollowingSummon
-[27Jan2025 01:04:30.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[27Jan2025 01:04:36.262] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jan2025 01:04:36.269] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jan2025 01:04:36.270] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jan2025 01:04:36.284] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jan2025 01:04:36.285] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jan2025 01:04:36.285] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jan2025 01:04:36.314] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jan2025 01:04:36.315] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jan2025 01:04:36.328] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jan2025 01:04:36.329] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jan2025 01:04:36.343] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jan2025 01:04:36.356] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jan2025 01:04:36.804] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jan2025 01:04:37.444] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jan2025 01:04:37.820] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jan2025 01:04:38.357] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jan2025 01:04:38.833] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jan2025 01:04:39.347] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jan2025 01:04:39.837] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[27Jan2025 01:04:40.322] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[27Jan2025 01:04:40.861] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[27Jan2025 01:04:41.300] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[27Jan2025 01:04:41.804] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[27Jan2025 01:04:42.296] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[27Jan2025 01:04:43.006] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[27Jan2025 01:04:43.314] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[27Jan2025 01:04:43.829] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[27Jan2025 01:04:44.300] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[27Jan2025 01:04:44.807] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
-[27Jan2025 01:04:45.293] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
-[27Jan2025 01:04:45.815] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
-[27Jan2025 01:04:46.298] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[27Jan2025 01:04:46.825] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[27Jan2025 01:04:47.299] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[27Jan2025 01:04:47.810] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
-[27Jan2025 01:04:48.304] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
-[27Jan2025 01:04:48.797] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
-[27Jan2025 01:04:48.831] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-420, y=-50, z=-211}
-[27Jan2025 01:04:48.832] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-413, y=-49, z=-217}
-[27Jan2025 01:04:49.301] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
-[27Jan2025 01:04:49.324] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-423, y=-50, z=-211}
-[27Jan2025 01:04:49.336] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-193, y=-45, z=-211}
-[27Jan2025 01:04:49.337] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-57, z=-210}
-[27Jan2025 01:04:49.338] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-49, z=-219}
-[27Jan2025 01:04:49.338] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-189, y=-45, z=-211}
-[27Jan2025 01:04:49.338] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-191, y=-45, z=-211}
-[27Jan2025 01:04:49.793] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
-[27Jan2025 01:04:50.302] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
-[27Jan2025 01:04:50.806] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[27Jan2025 01:04:51.311] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[27Jan2025 01:04:51.799] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[27Jan2025 01:04:52.304] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[27Jan2025 01:04:52.805] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
-[27Jan2025 01:04:53.156] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-418, y=-50, z=-208}
-[27Jan2025 01:04:53.296] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkShriekerBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]
-[27Jan2025 01:04:53.304] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-57, z=-201}
-[27Jan2025 01:04:53.304] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-58, z=-205}
-[27Jan2025 01:04:53.340] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 21%
-[27Jan2025 01:04:53.807] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[27Jan2025 01:04:54.335] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
-[27Jan2025 01:04:54.806] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
-[27Jan2025 01:04:55.312] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[27Jan2025 01:04:55.829] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 25%
-[27Jan2025 01:04:56.309] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
-[27Jan2025 01:04:56.792] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
-[27Jan2025 01:04:57.296] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
-[27Jan2025 01:04:57.839] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
-[27Jan2025 01:04:58.320] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
-[27Jan2025 01:04:58.805] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
-[27Jan2025 01:04:59.306] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
-[27Jan2025 01:04:59.828] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
-[27Jan2025 01:05:00.310] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
-[27Jan2025 01:05:00.812] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
-[27Jan2025 01:05:01.307] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 40%
-[27Jan2025 01:05:01.810] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
-[27Jan2025 01:05:02.302] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[27Jan2025 01:05:02.803] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
-[27Jan2025 01:05:03.140] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[27Jan2025 01:05:03.481] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
-[27Jan2025 01:05:03.800] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
-[27Jan2025 01:05:04.294] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
-[27Jan2025 01:05:04.804] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
-[27Jan2025 01:05:05.311] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 49%
-[27Jan2025 01:05:05.812] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[27Jan2025 01:05:06.313] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
-[27Jan2025 01:05:06.804] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
-[27Jan2025 01:05:07.301] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
-[27Jan2025 01:05:07.798] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
-[27Jan2025 01:05:08.297] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
-[27Jan2025 01:05:08.792] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
-[27Jan2025 01:05:09.300] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
-[27Jan2025 01:05:09.806] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
-[27Jan2025 01:05:10.295] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
-[27Jan2025 01:05:10.795] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
-[27Jan2025 01:05:11.309] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 65%
-[27Jan2025 01:05:11.815] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[27Jan2025 01:05:12.308] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
-[27Jan2025 01:05:12.807] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
-[27Jan2025 01:05:13.310] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
-[27Jan2025 01:05:13.798] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
-[27Jan2025 01:05:14.334] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 73%
-[27Jan2025 01:05:14.795] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 75%
-[27Jan2025 01:05:15.293] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 76%
-[27Jan2025 01:05:15.796] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 78%
-[27Jan2025 01:05:16.292] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 80%
-[27Jan2025 01:05:16.813] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 82%
-[27Jan2025 01:05:17.324] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 82%
-[27Jan2025 01:05:17.797] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[27Jan2025 01:05:18.299] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[27Jan2025 01:05:18.817] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[27Jan2025 01:05:19.301] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
-[27Jan2025 01:05:19.792] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
-[27Jan2025 01:05:20.329] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
-[27Jan2025 01:05:20.792] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
-[27Jan2025 01:05:21.294] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
-[27Jan2025 01:05:21.832] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 94%
-[27Jan2025 01:05:22.298] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 95%
-[27Jan2025 01:05:22.819] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
-[27Jan2025 01:05:23.323] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
-[27Jan2025 01:05:23.744] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 52953 ms
-[27Jan2025 01:05:23.745] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (70.553s)! For help, type "help"
-[27Jan2025 01:05:23.802] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[27Jan2025 01:05:23.837] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[27Jan2025 01:05:23.838] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[27Jan2025 01:05:23.838] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
-[27Jan2025 01:05:26.967] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3075ms or 61 ticks behind
-[27Jan2025 01:05:30.477] [Server thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Found Pupfish chunk at 687 ~ 336 after 32 tries
-[27Jan2025 01:05:34.654] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: pepegrillo[/127.142.211.154:42597] logged in with entity id 1202 at (127.5, 79.0, 507.5)
-[27Jan2025 01:05:34.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo joined the game
-[27Jan2025 01:05:35.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Ice and Fire]
-[27Jan2025 01:05:35.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has completed the challenge [The Undead]
-[27Jan2025 01:05:46.517] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7713a774[id=<null>,name=WithoutD2,properties={},legacy=false] (/127.215.159.167:60777) lost connection: Disconnected
-[27Jan2025 01:05:53.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Alex's Mobs]
-[27Jan2025 01:06:29.193] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: KilFail[/127.188.44.140:58857] logged in with entity id 1567 at (124.5, 68.0, 513.5)
-[27Jan2025 01:06:29.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail joined the game
-[27Jan2025 01:06:29.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Ice and Fire]
-[27Jan2025 01:06:29.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has completed the challenge [The Undead]
-[27Jan2025 01:06:39.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Alex's Mobs]
-[27Jan2025 01:07:11.285] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=106, y=78, z=551} BlockPos{x=135, y=77, z=525}
-[27Jan2025 01:07:31.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo was slain by KilFail
-[27Jan2025 01:07:31.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Your First Grave]
-[27Jan2025 01:07:31.439] [Server thread/INFO] [tombstone/]: The player pepegrillo has successfully been saved
-[27Jan2025 01:09:25.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Stone Age]
-[27Jan2025 01:09:56.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Getting an Upgrade]
-[27Jan2025 01:10:18.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail hit the ground too hard whilst trying to escape Iron Golem
-[27Jan2025 01:10:18.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Your First Grave]
-[27Jan2025 01:10:18.611] [Server thread/INFO] [tombstone/]: The player KilFail has successfully been saved
-[27Jan2025 01:10:32.856] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@e1fb074[id=<null>,name=WithoutD2,properties={},legacy=false] (/127.215.159.167:58507) lost connection: Disconnected
-[27Jan2025 01:10:38.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has reached the goal [Here They Come]
-[27Jan2025 01:10:46.109] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: WithoutD2[/127.215.159.167:49403] logged in with entity id 2786 at (136.5, 78.0, 504.5)
-[27Jan2025 01:10:46.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 joined the game
-[27Jan2025 01:10:46.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Ice and Fire]
-[27Jan2025 01:10:46.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has completed the challenge [The Undead]
-[27Jan2025 01:10:52.112] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=109, y=84, z=571} BlockPos{x=109, y=82, z=571}
-[27Jan2025 01:11:14.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Acquire Hardware]
-[27Jan2025 01:11:27.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Isn't It Iron Pick]
-[27Jan2025 01:11:58.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Stone Age]
-[27Jan2025 01:12:12.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Stone Age]
-[27Jan2025 01:13:28.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Getting an Upgrade]
-[27Jan2025 01:15:06.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Mine? Mine? Mine?]
-[27Jan2025 01:15:23.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Monster Hunter]
-[27Jan2025 01:16:59.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Monster Hunter]
-[27Jan2025 01:17:01.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Monster Hunter]
-[27Jan2025 01:17:32.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [A Strange Grave Dust]
-[27Jan2025 01:17:39.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo was killed by Area Effect Cloud using magic
-[27Jan2025 01:17:39.163] [Server thread/INFO] [tombstone/]: The player pepegrillo has successfully been saved
-[27Jan2025 01:17:40.707] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=122, y=80, z=516}
-[27Jan2025 01:17:45.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to WithoutD2]
-[27Jan2025 01:17:53.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has reached the goal [Here They Come]
-[27Jan2025 01:18:53.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Knowledge of Death]
-[27Jan2025 01:18:53.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Ashes 'n Bones]
-[27Jan2025 01:18:55.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Knowledge of Death]
-[27Jan2025 01:18:55.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Ashes 'n Bones]
-[27Jan2025 01:19:03.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Knowledge raises the soul]
-[27Jan2025 01:19:19.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Acquire Hardware]
-[27Jan2025 01:19:23.899] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/924, l='ServerLevel[world]', x=77.27, y=82.00, z=545.28] died, message: 'Nitwit was slain by Zombie Bruiser'
-[27Jan2025 01:19:34.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [A Strange Grave Dust]
-[27Jan2025 01:19:46.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Sweet Dreams]
-[27Jan2025 01:20:12.852] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/925, l='ServerLevel[world]', x=181.91, y=74.00, z=603.95] died, message: 'Farmer was slain by Door Knight'
-[27Jan2025 01:21:37.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Sweet Dreams]
-[27Jan2025 01:21:56.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Sweet Dreams]
-[27Jan2025 01:22:09.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [An Unlikely Alliance]
-[27Jan2025 01:22:09.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Best Friends Forever]
-[27Jan2025 01:22:51.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Acquire Hardware]
-[27Jan2025 01:23:14.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Suit Up]
-[27Jan2025 01:24:07.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo fell from a high place
-[27Jan2025 01:24:07.608] [Server thread/INFO] [tombstone/]: The player pepegrillo has successfully been saved
-[27Jan2025 01:24:08.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 fell from a high place
-[27Jan2025 01:24:08.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Your First Grave]
-[27Jan2025 01:24:08.692] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
-[27Jan2025 01:24:14.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to WithoutD2]
-[27Jan2025 01:24:14.457] [Server thread/WARN] [net.minecraft.world.level.block.entity.SignBlockEntity/]: Player WithoutD2 just tried to change non-editable sign
-[27Jan2025 01:24:18.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
-[27Jan2025 01:24:22.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
-[27Jan2025 01:26:58.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Good Demoman]
-[27Jan2025 01:28:01.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Deceived Hopes]
-[27Jan2025 01:28:27.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail was slain by pepegrillo
-[27Jan2025 01:28:27.147] [Server thread/INFO] [tombstone/]: The player KilFail has successfully been saved
-[27Jan2025 01:28:27.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Isn't It Iron Pick]
-[27Jan2025 01:28:32.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to pepegrillo]
-[27Jan2025 01:29:36.595] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Pet Shop Owner'/934, l='ServerLevel[world]', x=93.49, y=74.00, z=600.68] died, message: 'Pet Shop Owner hit the ground too hard'
-[27Jan2025 01:31:07.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
-[27Jan2025 01:32:33.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Suit Up]
-[27Jan2025 01:33:04.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Diamonds!]
-[27Jan2025 01:33:13.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Diamonds!]
-[27Jan2025 01:33:37.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Suit Up]
-[27Jan2025 01:33:38.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Mutual Aid]
-[27Jan2025 01:33:51.301] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Pet Shop Owner'/926, l='ServerLevel[world]', x=94.00, y=81.00, z=574.50] died, message: 'Pet Shop Owner was slain by The Wheezer'
-[27Jan2025 01:34:03.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
-[27Jan2025 01:35:11.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Set own game mode to Spectator Mode]
-[27Jan2025 01:35:19.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Alex's Caves]
-[27Jan2025 01:36:35.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
-[27Jan2025 01:36:37.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
-[27Jan2025 01:36:41.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Alex's Caves]
-[27Jan2025 01:36:43.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Alex's Caves]
-[27Jan2025 01:36:45.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Set own game mode to Survival Mode]
-[27Jan2025 01:36:51.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [It Belongs in a Museum]
-[27Jan2025 01:37:29.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Set own game mode to Spectator Mode]
-[27Jan2025 01:38:06.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
-[27Jan2025 01:38:09.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
-[27Jan2025 01:38:14.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Set the time to 1000]
-[27Jan2025 01:38:17.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Set own game mode to Survival Mode]
-[27Jan2025 01:40:45.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Set own game mode to Spectator Mode]
-[27Jan2025 01:41:36.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Set own game mode to Survival Mode]
-[27Jan2025 01:41:43.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 drowned whilst trying to escape pepegrillo
-[27Jan2025 01:41:43.557] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
-[27Jan2025 01:41:48.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to pepegrillo]
-[27Jan2025 01:42:44.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to WithoutD2]
-[27Jan2025 01:43:05.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to pepegrillo]
-[27Jan2025 01:44:42.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has reached the goal [Horror of the Depths]
-[27Jan2025 01:45:18.203] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KilFail moved wrongly!
-[27Jan2025 01:45:19.655] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KilFail moved wrongly!
-[27Jan2025 01:45:20.007] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KilFail moved wrongly!
-[27Jan2025 01:45:21.072] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KilFail moved wrongly!
-[27Jan2025 01:45:24.822] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KilFail moved wrongly!
-[27Jan2025 01:45:27.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail was slain by Giant Squid
-[27Jan2025 01:45:27.660] [Server thread/INFO] [tombstone/]: The player KilFail has successfully been saved
-[27Jan2025 01:45:32.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to WithoutD2]
-[27Jan2025 01:45:41.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to WithoutD2]
-[27Jan2025 01:47:07.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Mine? Mine? Mine?]
-[27Jan2025 01:48:55.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Who You Gonna Call?]
-[27Jan2025 01:48:59.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Who You Gonna Call?]
-[27Jan2025 01:49:06.599] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:49:10.499] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:49:11.500] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:49:13.201] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:49:27.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
-[27Jan2025 01:49:36.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Dark Metallurgy]
-[27Jan2025 01:49:38.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
-[27Jan2025 01:49:46.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 was slain by pepegrillo
-[27Jan2025 01:49:46.199] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
-[27Jan2025 01:49:49.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
-[27Jan2025 01:49:50.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Isn't It Iron Pick]
-[27Jan2025 01:49:50.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Knowledge of Death]
-[27Jan2025 01:49:50.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Funeral Theft]
-[27Jan2025 01:49:53.696] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:00.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has reached the goal [Here They Come]
-[27Jan2025 01:50:11.896] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:13.597] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:22.327] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:23.000] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:23.704] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:27.103] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:28.499] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:29.201] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:29.899] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:33.311] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:34.710] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:35.402] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:36.099] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:39.498] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:40.902] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:41.605] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:42.300] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:45.699] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:47.099] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:47.803] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:48.499] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:51.898] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:53.297] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:53.997] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:54.698] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:58.097] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:50:59.497] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:00.197] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:00.897] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:04.297] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:05.697] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:06.396] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:07.098] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:10.496] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:11.896] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:12.597] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:13.297] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:16.697] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:18.097] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:18.802] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:19.497] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:20.851] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:22.898] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:24.297] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:24.998] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:25.356] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:25.699] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:26.057] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:27.749] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:29.106] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:30.499] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:30.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Ambush]
-[27Jan2025 01:51:31.197] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:31.899] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:35.297] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:36.697] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:37.398] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:38.097] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:41.497] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:42.898] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:43.597] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:44.297] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:47.700] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:49.112] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:49.799] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:50.498] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:53.898] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:55.304] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:55.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Ambush]
-[27Jan2025 01:51:55.998] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:51:56.697] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:54:32.000] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:54:35.501] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:54:39.309] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:55:15.000] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:55:15.724] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:55:16.406] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:55:19.801] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:55:21.206] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:55:21.902] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:55:23.600] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:55:49.351] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:55:50.051] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:55:50.751] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:55:55.051] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:55:56.950] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:55:57.050] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:55:57.152] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:55:57.249] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:55:57.351] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:56:40.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [No Step on Snake]
-[27Jan2025 01:57:17.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Magic Writing]
-[27Jan2025 01:57:44.102] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:57:44.802] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:57:46.502] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 01:58:13.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Not Today, Thank You]
-[27Jan2025 01:58:29.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [The Desert Swimmers]
-[27Jan2025 01:59:00.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 was blown up by Death Worm
-[27Jan2025 01:59:00.761] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
-[27Jan2025 01:59:07.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to pepegrillo]
-[27Jan2025 02:00:37.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [The Imperial March]
-[27Jan2025 02:00:55.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
-[27Jan2025 02:00:56.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [The Imperial March]
-[27Jan2025 02:01:00.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
-[27Jan2025 02:01:00.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [The Imperial March]
-[27Jan2025 02:01:07.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail was doomed to fall by pepegrillo
-[27Jan2025 02:01:07.773] [Server thread/INFO] [tombstone/]: The player KilFail has successfully been saved
-[27Jan2025 02:01:29.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to WithoutD2]
-[27Jan2025 02:01:58.006] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:02:00.400] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:02:00.953] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:02:01.798] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:02:02.501] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:02:05.904] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:02:07.302] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:02:08.000] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:02:08.702] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:02:12.100] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:02:13.500] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:02:14.201] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:02:14.901] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:02:17.350] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:02:18.299] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:02:19.699] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:02:20.401] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:02:21.103] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:02:24.501] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:02:25.152] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:02:25.899] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:02:26.599] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:02:27.300] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:03:24.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Cover Me with Diamonds]
-[27Jan2025 02:04:11.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Diamonds!]
-[27Jan2025 02:04:13.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo was slain by Wither Skeleton
-[27Jan2025 02:04:13.576] [Server thread/INFO] [tombstone/]: The player pepegrillo has successfully been saved
-[27Jan2025 02:05:53.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 was slain by Wither Skeleton
-[27Jan2025 02:05:53.922] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
-[27Jan2025 02:05:56.216] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/21394, l='ServerLevel[world]', x=1190.05, y=80.70, z=-112.07]
-[27Jan2025 02:05:56.217] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/21395, l='ServerLevel[world]', x=1189.78, y=80.70, z=-112.96]
-[27Jan2025 02:06:00.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to pepegrillo]
-[27Jan2025 02:06:16.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo was doomed to fall
-[27Jan2025 02:06:16.416] [Server thread/INFO] [tombstone/]: The player pepegrillo has successfully been saved
-[27Jan2025 02:06:21.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has reached the goal [Chain Death]
-[27Jan2025 02:06:21.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 was slain by Hoglin
-[27Jan2025 02:06:21.525] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
-[27Jan2025 02:06:26.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to pepegrillo]
-[27Jan2025 02:06:36.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
-[27Jan2025 02:06:42.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
-[27Jan2025 02:07:00.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 was slain by Hoglin
-[27Jan2025 02:07:00.920] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
-[27Jan2025 02:07:07.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
-[27Jan2025 02:07:11.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has reached the goal [Chain Death]
-[27Jan2025 02:07:11.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo fell from a high place
-[27Jan2025 02:07:11.018] [Server thread/INFO] [tombstone/]: The player pepegrillo has successfully been saved
-[27Jan2025 02:07:27.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 was slain by Wither Skeleton
-[27Jan2025 02:07:27.470] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
-[27Jan2025 02:07:30.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
-[27Jan2025 02:07:32.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo was doomed to fall
-[27Jan2025 02:07:32.112] [Server thread/INFO] [tombstone/]: The player pepegrillo has successfully been saved
-[27Jan2025 02:07:51.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 was slain by Hoglin
-[27Jan2025 02:07:51.017] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
-[27Jan2025 02:07:55.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
-[27Jan2025 02:07:57.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
-[27Jan2025 02:08:21.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
-[27Jan2025 02:08:47.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Double Trouble]
-[27Jan2025 02:08:48.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has reached the goal [Sweet Sweet Speeding Up]
-[27Jan2025 02:08:54.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail was doomed to fall
-[27Jan2025 02:08:54.871] [Server thread/INFO] [tombstone/]: The player KilFail has successfully been saved
-[27Jan2025 02:08:57.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo withered away whilst fighting Wither Skeleton
-[27Jan2025 02:08:57.214] [Server thread/INFO] [tombstone/]: The player pepegrillo has successfully been saved
-[27Jan2025 02:09:03.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to WithoutD2]
-[27Jan2025 02:09:19.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to WithoutD2]
-[27Jan2025 02:10:19.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 was slain by Wither Skeleton
-[27Jan2025 02:10:19.025] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
-[27Jan2025 02:10:22.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
-[27Jan2025 02:10:30.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail fell from a high place
-[27Jan2025 02:10:30.822] [Server thread/INFO] [tombstone/]: The player KilFail has successfully been saved
-[27Jan2025 02:10:48.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Knowledge raises the soul]
-[27Jan2025 02:11:01.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to WithoutD2]
-[27Jan2025 02:11:04.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to pepegrillo]
-[27Jan2025 02:12:36.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo was killed by KilFail using magic
-[27Jan2025 02:12:36.031] [Server thread/INFO] [tombstone/]: The player pepegrillo has successfully been saved
-[27Jan2025 02:12:42.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
-[27Jan2025 02:13:34.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Ambush]
-[27Jan2025 02:13:44.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has reached the goal [Bone Crusher]
-[27Jan2025 02:13:59.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Knowledge raises the soul]
-[27Jan2025 02:17:02.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
-[27Jan2025 02:17:30.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Back to childhood]
-[27Jan2025 02:17:30.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Not even afraid of death]
-[27Jan2025 02:17:49.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Cover Me with Diamonds]
-[27Jan2025 02:18:13.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has reached the goal [Death Will Not Be Enough]
-[27Jan2025 02:18:36.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has completed the challenge [Serious Dedication]
-[27Jan2025 02:18:51.433] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pepegrillo moved too quickly! 7.332513151110561,-135.0,0.020320334931412276
-[27Jan2025 02:19:03.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 was slain by pepegrillo
-[27Jan2025 02:19:03.144] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
-[27Jan2025 02:19:04.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
-[27Jan2025 02:19:41.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail was doomed to fall by Phantom
-[27Jan2025 02:19:41.133] [Server thread/INFO] [tombstone/]: The player KilFail has successfully been saved
-[27Jan2025 02:19:42.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [The Most Useful Key]
-[27Jan2025 02:19:49.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Magic Writing]
-[27Jan2025 02:20:15.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to pepegrillo]
-[27Jan2025 02:21:29.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to pepegrillo]
-[27Jan2025 02:21:29.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail was doomed to fall by Hoglin
-[27Jan2025 02:21:29.878] [Server thread/INFO] [tombstone/]: The player KilFail has successfully been saved
-[27Jan2025 02:21:59.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has reached the goal [Chain Death]
-[27Jan2025 02:21:59.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail was doomed to fall by Phantom
-[27Jan2025 02:21:59.160] [Server thread/INFO] [tombstone/]: The player KilFail has successfully been saved
-[27Jan2025 02:22:14.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to WithoutD2]
-[27Jan2025 02:22:42.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to WithoutD2]
-[27Jan2025 02:23:58.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [The Desert Swimmers]
-[27Jan2025 02:26:36.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Ashes 'n Bones]
-[27Jan2025 02:26:36.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Life turned out to be a comedy]
-[27Jan2025 02:27:18.298] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:28:06.199] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:28:11.399] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:28:11.757] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1548, y=48, z=-288} BlockPos{x=1548, y=49, z=-288}
-[27Jan2025 02:28:14.908] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:28:17.297] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:28:18.998] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:31:16.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Junior Summoner]
-[27Jan2025 02:31:20.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has reached the goal [Bone Crusher]
-[27Jan2025 02:31:29.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Good Demoman]
-[27Jan2025 02:32:14.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Tie me to the Mast]
-[27Jan2025 02:32:28.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Tie me to the Mast]
-[27Jan2025 02:32:46.203] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KilFail lost connection: Disconnected
-[27Jan2025 02:32:46.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail left the game
-[27Jan2025 02:32:48.196] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:32:48.397] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:32:53.600] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:32:55.998] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:32:57.197] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:32:57.898] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:33:00.159] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: KilFail[/127.188.44.140:34691] logged in with entity id 40292 at (1694.957967437083, 63.0, -367.4917084109061)
-[27Jan2025 02:33:00.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail joined the game
-[27Jan2025 02:33:01.497] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:33:06.297] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[27Jan2025 02:33:29.207] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1711, y=48, z=-394} BlockPos{x=1711, y=49, z=-394}
-[27Jan2025 02:34:41.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 was burnt to a crisp whilst fighting Fire Dragon
-[27Jan2025 02:34:41.361] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
-[27Jan2025 02:34:45.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
-[27Jan2025 02:34:51.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Ol' Betsy]
-[27Jan2025 02:34:53.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Take Aim]
-[27Jan2025 02:35:15.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Dragonslayer]
-[27Jan2025 02:35:45.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Voluntary Exile]
-[27Jan2025 02:35:56.692] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [115, -40], pos: MutableBlockPos{x=1842, y=15, z=-640}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / terralith:cave/thermal/dripstone]
-[27Jan2025 02:35:56.692] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [115, -40], pos: MutableBlockPos{x=1842, y=16, z=-640}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / terralith:cave/thermal/dripstone]
-[27Jan2025 02:35:59.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Rigged from the Start]
-[27Jan2025 02:36:12.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Ice Bucket Challenge]
-[27Jan2025 02:36:52.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [The Desert Swimmers]
-[27Jan2025 02:39:02.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Sky of Beginning]
-[27Jan2025 02:40:14.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [A Strange Grave Dust]
-[27Jan2025 02:40:43.851] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-195, y=-54, z=-92}
-[27Jan2025 02:40:43.852] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-54, z=-88}
-[27Jan2025 02:40:43.852] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-50, z=-85}
-[27Jan2025 02:40:43.852] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-51, z=-89}
-[27Jan2025 02:40:43.852] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-186, y=-50, z=-90}
-[27Jan2025 02:40:43.854] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-186, y=-45, z=-87}
-[27Jan2025 02:40:43.854] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-189, y=-45, z=-84}
-[27Jan2025 02:40:44.049] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-178, y=-45, z=-85}
-[27Jan2025 02:40:44.050] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-178, y=-41, z=-89}
-[27Jan2025 02:40:44.050] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-92}
-[27Jan2025 02:40:44.050] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-93}
-[27Jan2025 02:40:44.050] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-175, y=-41, z=-90}
-[27Jan2025 02:40:44.057] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-274, y=-57, z=-245}
-[27Jan2025 02:40:44.057] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-276, y=-57, z=-243}
-[27Jan2025 02:40:44.057] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-277, y=-57, z=-244}
-[27Jan2025 02:41:01.497] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-54, z=-74}
-[27Jan2025 02:41:01.497] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-50, z=-77}
-[27Jan2025 02:41:01.498] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-50, z=-72}
-[27Jan2025 02:41:01.498] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-184, y=-45, z=-75}
-[27Jan2025 02:41:01.499] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-182, y=-45, z=-75}
-[27Jan2025 02:41:01.596] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-177, y=-55, z=-77}
-[27Jan2025 02:41:01.596] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-181, y=-50, z=-73}
-[27Jan2025 02:41:01.597] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-70}
-[27Jan2025 02:41:04.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
-[27Jan2025 02:42:21.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
-[27Jan2025 02:42:51.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Best Friends Forever]
-[27Jan2025 02:43:20.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to pepegrillo]
+[27Jan2025 03:04:55.386] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[27Jan2025 03:04:55.386] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[27Jan2025 03:05:02.206] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[27Jan2025 03:05:02.241] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[27Jan2025 03:05:03.704] [main/INFO] [journeymap/]: Initializing Packet Registries
+[27Jan2025 03:05:03.880] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[27Jan2025 03:05:04.194] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[27Jan2025 03:05:04.199] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[27Jan2025 03:05:04.449] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.12 Target: null
+[27Jan2025 03:05:04.450] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[27Jan2025 03:05:04.466] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.9.0 Target: null
+[27Jan2025 03:05:04.466] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[27Jan2025 03:05:04.592] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.25
+[27Jan2025 03:05:10.987] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[27Jan2025 03:05:15.576] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/SERVIDOR/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23151!/assets/.mcassetsroot' uses unexpected schema
+[27Jan2025 03:05:15.576] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/SERVIDOR/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23151!/data/.mcassetsroot' uses unexpected schema
+[27Jan2025 03:05:18.385] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[27Jan2025 03:05:20.414] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 34 recipes
+[27Jan2025 03:05:20.691] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4695 advancements
+[27Jan2025 03:05:20.710] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 14 curio slots
+[27Jan2025 03:05:20.718] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[27Jan2025 03:05:20.743] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
+[27Jan2025 03:05:20.781] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: netherexp:sounds/polished_blackstone
+[27Jan2025 03:05:24.829] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[27Jan2025 03:05:24.829] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[27Jan2025 03:05:24.829] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[27Jan2025 03:05:24.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[27Jan2025 03:05:24.947] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[27Jan2025 03:05:24.989] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[27Jan2025 03:05:25.163] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[27Jan2025 03:05:25.163] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[27Jan2025 03:05:25.163] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[27Jan2025 03:05:25.164] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[27Jan2025 03:05:25.186] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[27Jan2025 03:05:25.189] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[27Jan2025 03:05:25.725] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:the_nether
+[27Jan2025 03:05:25.727] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:overworld
+[27Jan2025 03:05:25.730] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[27Jan2025 03:05:26.787] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.TamableAnimal from interface com.hollingsworth.arsnouveau.common.entity.IFollowingSummon
+[27Jan2025 03:05:38.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[27Jan2025 03:05:43.803] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Jan2025 03:05:43.907] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Jan2025 03:05:43.958] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Jan2025 03:05:43.978] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Jan2025 03:05:44.025] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Jan2025 03:05:44.036] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Jan2025 03:05:44.042] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Jan2025 03:05:44.070] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Jan2025 03:05:44.087] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Jan2025 03:05:44.095] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Jan2025 03:05:44.100] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Jan2025 03:05:44.250] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Jan2025 03:05:45.195] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Jan2025 03:05:45.247] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Jan2025 03:05:45.747] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[27Jan2025 03:05:46.261] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
+[27Jan2025 03:05:46.476] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[27Jan2025 03:05:46.758] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[27Jan2025 03:05:47.247] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 78%
+[27Jan2025 03:05:47.988] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
+[27Jan2025 03:05:48.284] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9538 ms
+[27Jan2025 03:05:48.285] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (23.105s)! For help, type "help"
+[27Jan2025 03:05:48.361] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[27Jan2025 03:05:48.407] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[27Jan2025 03:05:48.408] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[27Jan2025 03:05:48.409] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[27Jan2025 03:05:59.323] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: KilFail[/127.188.44.140:38333] logged in with entity id 964 at (1105.354067431035, 210.07903067999692, 148.51196156574304)
+[27Jan2025 03:05:59.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail joined the game
+[27Jan2025 03:06:02.273] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3058ms or 61 ticks behind
+[27Jan2025 03:06:03.032] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: WithoutD2[/127.215.159.167:44633] logged in with entity id 990 at (1653.1841013982887, 81.0, -1123.7401982027798)
+[27Jan2025 03:06:03.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 joined the game
+[27Jan2025 03:06:09.842] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: pepegrillo[/127.142.211.154:42891] logged in with entity id 1244 at (1665.7513383291582, 83.0, -1132.4836274324252)
+[27Jan2025 03:06:09.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo joined the game
+[27Jan2025 03:06:11.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has reached the goal [A Fast Comeback]
+[27Jan2025 03:06:23.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 was turned to ice by Ice Dragon
+[27Jan2025 03:06:23.806] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
+[27Jan2025 03:06:32.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail was slain by Ice Dragon
+[27Jan2025 03:06:32.420] [Server thread/INFO] [tombstone/]: The player KilFail has successfully been saved
+[27Jan2025 03:06:46.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Set own game mode to Creative Mode]
+[27Jan2025 03:06:58.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
+[27Jan2025 03:08:58.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo was slain by Husk
+[27Jan2025 03:08:58.589] [Server thread/INFO] [tombstone/]: The player pepegrillo has successfully been saved
+[27Jan2025 03:08:59.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [The Most Useful Key]
+[27Jan2025 03:09:06.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
+[27Jan2025 03:09:09.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has reached the goal [A Fast Comeback]
+[27Jan2025 03:09:49.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Set own game mode to Survival Mode]
+[27Jan2025 03:10:22.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Set own game mode to Creative Mode]
+[27Jan2025 03:10:59.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Set own game mode to Survival Mode]
+[27Jan2025 03:14:08.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Good Demoman]
