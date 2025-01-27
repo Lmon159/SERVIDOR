@@ -5779,3 +5779,30 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [27Jan2025 01:33:13.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Diamonds!]
 [27Jan2025 01:33:37.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Suit Up]
 [27Jan2025 01:33:38.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Mutual Aid]
+[27Jan2025 01:33:51.301] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Pet Shop Owner'/926, l='ServerLevel[world]', x=94.00, y=81.00, z=574.50] died, message: 'Pet Shop Owner was slain by The Wheezer'
+[27Jan2025 01:34:03.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
+[27Jan2025 01:35:11.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Set own game mode to Spectator Mode]
+[27Jan2025 01:35:19.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [Alex's Caves]
+[27Jan2025 01:35:26.896] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jan2025 01:35:26.910] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jan2025 01:36:35.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
+[27Jan2025 01:36:37.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
+[27Jan2025 01:36:41.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 has made the advancement [Alex's Caves]
+[27Jan2025 01:36:43.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepegrillo has made the advancement [Alex's Caves]
+[27Jan2025 01:36:45.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Set own game mode to Survival Mode]
+[27Jan2025 01:36:51.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KilFail has made the advancement [It Belongs in a Museum]
+[27Jan2025 01:37:29.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Set own game mode to Spectator Mode]
+[27Jan2025 01:38:06.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to KilFail]
+[27Jan2025 01:38:09.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported pepegrillo to KilFail]
+[27Jan2025 01:38:14.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Set the time to 1000]
+[27Jan2025 01:38:17.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Set own game mode to Survival Mode]
+[27Jan2025 01:40:26.899] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jan2025 01:40:26.911] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jan2025 01:40:45.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Set own game mode to Spectator Mode]
+[27Jan2025 01:41:36.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Set own game mode to Survival Mode]
+[27Jan2025 01:41:43.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WithoutD2 drowned whilst trying to escape pepegrillo
+[27Jan2025 01:41:43.556] [Server thread/DEBUG] [tombstone/]: A new grave of the player WithoutD2 was created at position [x:218, y:56, z:434, dim:minecraft:overworld]
+[27Jan2025 01:41:43.557] [Server thread/INFO] [tombstone/]: The player WithoutD2 has successfully been saved
+[27Jan2025 01:41:48.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported WithoutD2 to pepegrillo]
+[27Jan2025 01:42:44.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to WithoutD2]
+[27Jan2025 01:43:05.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KilFail: Teleported KilFail to pepegrillo]

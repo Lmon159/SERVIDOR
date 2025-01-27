@@ -41,6 +41,12 @@
     },
     "done": true
   },
+  "rats:recipes/misc/hammocks/rat_hammock_magenta": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
+    },
+    "done": true
+  },
   "rats:recipes/misc/upgrades/armor_upgrade": {
     "criteria": {
       "has_iron": "2025-01-27 01:19:19 +0000"
@@ -134,6 +140,12 @@
   "ars_nouveau:recipes/misc/magelight_torch": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2025-01-27 01:37:35 +0000"
     },
     "done": true
   },
@@ -347,6 +359,12 @@
     },
     "done": true
   },
+  "rats:recipes/misc/hammocks/rat_hammock_brown": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/blue_sbed": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
@@ -422,6 +440,18 @@
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2025-01-27 01:08:27 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_packed_mud": {
+    "criteria": {
+      "has_wheat": "2025-01-27 01:31:01 +0000"
+    },
+    "done": true
+  },
+  "rats:recipes/food/cooked_rat_smelting": {
+    "criteria": {
+      "has_rat": "2025-01-27 01:33:13 +0000"
     },
     "done": true
   },
@@ -527,6 +557,12 @@
     },
     "done": true
   },
+  "alexscaves:alexscaves/root": {
+    "criteria": {
+      "underground_cabin": "2025-01-27 01:36:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/cherry_boat": {
     "criteria": {
       "in_water": "2025-01-27 01:08:53 +0000"
@@ -593,6 +629,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/decorations/sourcestone_20": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
@@ -647,6 +689,12 @@
     },
     "done": true
   },
+  "rats:recipes/combat/chef_toque": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/reinforced_andesite_with_vanilla_cobblestone": {
     "criteria": {
       "has_cobblestone": "2025-01-27 01:09:25 +0000"
@@ -668,6 +716,18 @@
   "ars_nouveau:recipes/misc/sourceberry_to_purple": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-01-27 01:31:01 +0000"
     },
     "done": true
   },
@@ -704,6 +764,18 @@
   "ars_nouveau:recipes/building_blocks/gilded_sourcestone_large_bricks_stone_cutterslab": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_gray": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-01-27 01:31:01 +0000"
     },
     "done": true
   },
@@ -749,6 +821,12 @@
     },
     "done": true
   },
+  "rats:recipes/misc/upgrades/bottler_upgrade": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/misc/reinforced_acacia_fence": {
     "criteria": {
       "has_stick": "2025-01-27 01:08:37 +0000"
@@ -773,6 +851,12 @@
     },
     "done": true
   },
+  "rats:recipes/misc/hammocks/rat_hammock_light_gray": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/ritual_sunrise": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
@@ -782,6 +866,12 @@
   "ars_nouveau:recipes/misc/wipe_spell_parchment": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_purple": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
     },
     "done": true
   },
@@ -812,6 +902,12 @@
   "securitycraft:recipes/misc/security_camera": {
     "criteria": {
       "has_iron": "2025-01-27 01:19:19 +0000"
+    },
+    "done": true
+  },
+  "rats:recipes/combat/fisherman_hat": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
     },
     "done": true
   },
@@ -884,6 +980,12 @@
   "securitycraft:recipes/redstone/reinforced_fence_gate": {
     "criteria": {
       "has_iron": "2025-01-27 01:19:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2025-01-27 01:37:35 +0000"
     },
     "done": true
   },
@@ -1049,6 +1151,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-01-27 01:37:35 +0000"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_orange": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/charcoal": {
     "criteria": {
       "has_log": "2025-01-27 01:08:06 +0000"
@@ -1088,6 +1202,12 @@
   "securitycraft:recipes/misc/sonic_security_system": {
     "criteria": {
       "has_stick": "2025-01-27 01:08:37 +0000"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/upgrades/jury_rigged_upgrade": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
     },
     "done": true
   },
@@ -1142,6 +1262,18 @@
   "ars_nouveau:recipes/misc/mimic_scroll": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
+    },
+    "done": true
+  },
+  "rats:recipes/food/cooked_rat_campfire": {
+    "criteria": {
+      "has_rat": "2025-01-27 01:33:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2025-01-27 01:37:35 +0000"
     },
     "done": true
   },
@@ -1217,6 +1349,12 @@
     },
     "done": true
   },
+  "rats:recipes/misc/hammocks/rat_hammock_blue": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
+    },
+    "done": true
+  },
   "netherexp:recipes/nether_bricks/red_mixed_nether_bricks": {
     "criteria": {
       "has_item": "2025-01-27 01:23:23 +0000"
@@ -1277,6 +1415,12 @@
     },
     "done": true
   },
+  "rats:recipes/misc/hammocks/rat_hammock_lime": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/building_blocks/sourcestone_basketweave_slab": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
@@ -1310,6 +1454,12 @@
   "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
       "has_stick": "2025-01-27 01:08:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2025-01-27 01:37:37 +0000"
     },
     "done": true
   },
@@ -1583,6 +1733,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2025-01-27 01:37:37 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/misc/door_indestructible_iron_item": {
     "criteria": {
       "has_iron": "2025-01-27 01:19:19 +0000"
@@ -1610,6 +1766,12 @@
   "ars_nouveau:recipes/misc/gilded_sourcestone_mosaic_stairs": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_cyan": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
     },
     "done": true
   },
@@ -1679,6 +1841,12 @@
     },
     "done": true
   },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2025-01-27 01:33:37 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/fire_essence_to_charge": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
@@ -1694,6 +1862,12 @@
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_sword": "2025-01-27 01:19:54 +0000"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_black": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
     },
     "done": true
   },
@@ -1748,6 +1922,12 @@
   "ars_nouveau:recipes/building_blocks/smooth_sourcestone_small_bricks_stone_cutterslab": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-01-27 01:37:35 +0000"
     },
     "done": true
   },
@@ -1844,6 +2024,12 @@
   "iceandfire:recipes/tools/silver_ingot_from_smelting_raw_silver": {
     "criteria": {
       "has_raw_silver": "2025-01-27 01:12:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
     },
     "done": true
   },
@@ -2021,6 +2207,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/building_blocks/smooth_gilded_sourcestone_small_bricks_slab": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
@@ -2087,6 +2279,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-01-27 01:37:35 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/water_essence_to_obsidian": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
@@ -2102,6 +2300,12 @@
   "ars_nouveau:recipes/misc/smooth_sourcestone_mosaic_stairs": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2025-01-27 01:37:35 +0000"
     },
     "done": true
   },
@@ -2159,6 +2363,12 @@
     },
     "done": true
   },
+  "rats:recipes/misc/rat_breeding_lantern": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
+    },
+    "done": true
+  },
   "alexsmobs:alexsmobs/seagull_steal": {
     "criteria": {
       "ex": "2025-01-27 01:15:06 +0000"
@@ -2180,6 +2390,18 @@
   "ars_nouveau:recipes/misc/rotating_spell_turret": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_green": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_white": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
     },
     "done": true
   },
@@ -2342,6 +2564,12 @@
   "ars_nouveau:recipes/misc/smooth_gilded_sourcestone_small_bricks_stairs": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2025-01-27 01:37:35 +0000"
     },
     "done": true
   },
@@ -2729,9 +2957,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-01-27 01:37:35 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/misc/smart_module": {
     "criteria": {
       "has_iron": "2025-01-27 01:19:19 +0000"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_yellow": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
     },
     "done": true
   },
@@ -2825,6 +3065,12 @@
     },
     "done": false
   },
+  "rats:recipes/food/cooked_rat_smoking": {
+    "criteria": {
+      "has_rat": "2025-01-27 01:33:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/acacia_fence": {
     "criteria": {
       "has_planks": "2025-01-27 01:08:27 +0000"
@@ -2834,6 +3080,12 @@
   "ars_nouveau:recipes/misc/ritual_conjure_island_plains": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
     },
     "done": true
   },
@@ -2849,6 +3101,12 @@
     },
     "done": true
   },
+  "rats:recipes/misc/hammocks/rat_hammock_light_blue": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/sourcestone_mosaic_to_sourcestone": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
@@ -2858,6 +3116,12 @@
   "ars_nouveau:recipes/misc/gilded_sourcestone_basketweave_stairs": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_pink": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
     },
     "done": true
   },
@@ -2899,7 +3163,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:lukewarm_ocean": "2025-01-27 01:39:03 +0000",
       "minecraft:river": "2025-01-27 01:30:20 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-01-27 01:39:48 +0000",
       "minecraft:savanna": "2025-01-27 01:06:33 +0000"
     },
     "done": false
@@ -2971,6 +3237,12 @@
     },
     "done": true
   },
+  "rats:recipes/misc/hammocks/rat_hammock_red": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
+    },
+    "done": true
+  },
   "ars_nouveau:recipes/misc/ritual_conjure_island_desert": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
@@ -3004,6 +3276,12 @@
   "ars_nouveau:recipes/misc/magebloom_to_pink": {
     "criteria": {
       "has_journal": "2025-01-27 01:05:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-01-27 01:33:13 +0000"
     },
     "done": true
   },
